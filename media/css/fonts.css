@@ -1,0 +1,80 @@
+/* Fonts registered Area */
+/*Dosis extra bold*/
+@font-face {
+    font-family: 'Dosis-Extra-Bold';
+    src: url('../fonts/Dosis/extrabold/Dosis-ExtraBold.eot'); /* IE9 Compat Modes */
+    src: url('../fonts/Dosis/extrabold/Dosis-ExtraBold.woff') format('woff'), /* Pretty Modern Browsers */
+    url('../fonts/Dosis/extrabold/Dosis-ExtraBold.ttf')  format('truetype'), /* Safari, Android, iOS */
+    url('../fonts/Dosis/extrabold/Dosis-ExtraBold.svg#svgFontName') format('svg'); /* Legacy iOS */
+}
+/* /Dosis extra bold*/
+
+/*Dosis bold*/
+@font-face {
+    font-family: 'Dosis-Bold';
+    src: url('../fonts/Dosis/bold/Dosis-Bold.eot'); /* IE9 Compat Modes */
+    src: url('../fonts/Dosis/bold/Dosis-Bold.woff') format('woff'), /* Pretty Modern Browsers */
+    url('../fonts/Dosis/bold/Dosis-Bold.ttf')  format('truetype'), /* Safari, Android, iOS */
+    url('../fonts/Dosis/bold/Dosis-Bold.svg#svgFontName') format('svg'); /* Legacy iOS */
+}
+/* /Dosis bold*/
+
+/*Dosis semi bold*/
+@font-face {
+    font-family: 'Dosis-Semi-Bold';
+    src: url('../fonts/Dosis/semi-bold/Dosis-SemiBold.eot'); /* IE9 Compat Modes */
+    src: url('../fonts/Dosis/semi-bold/Dosis-SemiBold.woff') format('woff'), /* Pretty Modern Browsers */
+    url('../fonts/Dosis/semi-bold/Dosis-SemiBold.ttf')  format('truetype'), /* Safari, Android, iOS */
+    url('../fonts/Dosis/semi-bold/Dosis-SemiBold.svg#svgFontName') format('svg'); /* Legacy iOS */
+}
+/* /Dosis semi bold*/
+
+/*Dosis medium*/
+@font-face {
+    font-family: 'Dosis-Medium';
+    src: url('../fonts/Dosis/medium/Dosis-Medium.eot'); /* IE9 Compat Modes */
+    src: url('../fonts/Dosis/medium/Dosis-Medium.woff') format('woff'), /* Pretty Modern Browsers */
+    url('../fonts/Dosis/medium/Dosis-Medium.ttf')  format('truetype'), /* Safari, Android, iOS */
+    url('../fonts/Dosis/medium/Dosis-Medium.svg#svgFontName') format('svg'); /* Legacy iOS */
+}
+/* /Dosis medium*/
+
+/*Dosis regular*/
+@font-face {
+    font-family: 'Dosis-Regular';
+    src: url('../fonts/Dosis/regular/Dosis-Regular.eot'); /* IE9 Compat Modes */
+    src: url('../fonts/Dosis/regular/Dosis-Regular.woff') format('woff'), /* Pretty Modern Browsers */
+    url('../fonts/Dosis/regular/Dosis-Regular.ttf')  format('truetype'), /* Safari, Android, iOS */
+    url('../fonts/Dosis/regular/Dosis-Regular.svg#svgFontName') format('svg'); /* Legacy iOS */
+}
+/* /Dosis regular*/
+
+/*Dosis light*/
+@font-face {
+    font-family: 'Dosis-Light';
+    src: url('../fonts/Dosis/light/Dosis-Light.eot'); /* IE9 Compat Modes */
+    src: url('../fonts/Dosis/light/Dosis-Light.woff') format('woff'), /* Pretty Modern Browsers */
+    url('../fonts/Dosis/light/Dosis-Light.ttf')  format('truetype'), /* Safari, Android, iOS */
+    url('../fonts/Dosis/light/Dosis-Light.svg#svgFontName') format('svg'); /* Legacy iOS */
+}
+/* /Dosis light*/
+
+/*Dosis extra light*/
+@font-face {
+    font-family: 'Dosis-extra-Light';
+    src: url('../fonts/Dosis/extralight/Dosis-ExtraLight.eot'); /* IE9 Compat Modes */
+    src: url('../fonts/Dosis/extralight/Dosis-ExtraLight.woff') format('woff'), /* Pretty Modern Browsers */
+    url('../fonts/Dosis/extralight/Dosis-ExtraLight.ttf')  format('truetype'), /* Safari, Android, iOS */
+    url('../fonts/Dosis/extralight/Dosis-ExtraLight.svg#svgFontName') format('svg'); /* Legacy iOS */
+}
+/* /Dosis extra light*/
+
+/*Zona Pro Bold*/
+@font-face {
+    font-family: 'ZonaPro-Bold';
+    src: url('../fonts/ZonaPro/bold/ZonaPro-Bold.eot'); /* IE9 Compat Modes */
+    src: url('../fonts/ZonaPro/bold/ZonaPro-Bold.woff') format('woff'), /* Pretty Modern Browsers */
+    url('../fonts/ZonaPro/bold/ZonaPro-Bold.ttf')  format('truetype'), /* Safari, Android, iOS */
+    url('../fonts/ZonaPro/bold/ZonaPro-Bold.svg#svgFontName') format('svg'); /* Legacy iOS */
+}
+/* /Zona Pro Bold*/
