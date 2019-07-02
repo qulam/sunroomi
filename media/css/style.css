@@ -1,0 +1,659 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    height: 100%;
+    box-sizing: border-box;
+    line-height: normal !important;
+    font-family: "Dosis-Medium";
+}
+
+/*General*/
+h1, h2, h3, h4, h5, h6 {
+    margin-bottom: 10px;
+    margin-top: 10px !important;
+    font-family: Dosis-Bold;
+    color: #000;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+ul li {
+    margin: 0;
+    padding: 0;
+    color: #000;
+}
+
+ul li a {
+    font-size: 14px;
+    color: #000;
+}
+
+.p-0 {
+    padding: 0 !important;
+}
+
+.p-15 {
+    padding: 15px !important;
+}
+
+.m-0 {
+    margin: 0 !important;
+}
+
+.m-15 {
+    margin: 15px !important;
+}
+
+.d-block {
+    display: block;
+}
+
+.d-inline-b {
+    display: inline-block;
+}
+
+.d-flex {
+    display: flex;
+}
+
+.d-flex-center {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.align-center {
+    align-items: center;
+}
+
+.justify-center {
+    justify-content: center;
+}
+
+.justify-space-between {
+    justify-content: space-between;
+}
+
+.item-helper {
+    display: flex;
+    flex-direction: column;
+    padding: 15px;
+}
+
+.button-group {
+    display: flex;
+    align-items: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.button-group .button-bordered, .button-group .button-full {
+    display: flex;
+    white-space: nowrap;
+    font-family: Dosis-Bold;
+    font-size: 14px;
+    font-weight: 600;
+    font-style: normal;
+    font-stretch: normal;
+    letter-spacing: 0.14px;
+    text-align: left;
+    border: solid 3px #7ca953;
+    margin-right: 15px;
+    padding-left: 35px;
+    padding-right: 35px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    text-decoration: none;
+    color: #000000;
+}
+
+.button-group .button-bordered {
+    border-radius: 3px;
+    background-color: #fff;
+}
+
+.button-group .button-full {
+    border-radius: 3px;
+    background-color: #7ca953;
+}
+
+.button-group .button-bordered:link,
+.button-group .button-bordered:focus,
+.button-group .button-bordered:hover,
+.button-group .button-bordered:visited {
+    outline: none;
+    text-decoration: none;
+}
+
+.un-bordered {
+    border: none !important;
+}
+
+.section-title {
+    font-size: 61px;
+    font-weight: bold;
+    font-style: normal;
+    font-stretch: normal;
+    letter-spacing: 0.61px;
+    text-align: left;
+    text-transform: uppercase;
+    color: #000000;
+}
+
+/* /General*/
+
+/*Header*/
+.header {
+    padding-top: 30px;
+    padding-right: 50px;
+    padding-bottom: 30px;
+    padding-left: 50px;
+}
+
+.header ul li {
+    list-style: none;
+    margin-right: 25px;
+}
+
+.header .right ul li:last-child {
+    margin-right: 0px;
+}
+
+.header ul li a {
+    font-size: 14px;
+    text-transform: uppercase;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.79;
+    letter-spacing: 0.14px;
+    padding-right: 3px;
+    padding-left: 3px;
+    text-align: left;
+}
+
+.header .right a {
+    color: #d6d6d6;
+    font-size: 16px;
+}
+
+.header .icon-header {
+    height: 27px;
+    margin-right: 5px;
+}
+
+/* /Header*/
+
+/*Main*/
+.main {
+    position: relative;
+    height: 100%;
+}
+
+.main_top {
+    height: 100%;
+    min-height: 100%;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.main_top__inner {
+    min-height: 100%;
+    width: 100%;
+    padding-top: 50px;
+    background-image: url("../img/main/1.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.site_nav .left {
+    display: flex;
+    align-items: center;
+    margin-left: 95px;
+    z-index: 999;
+}
+
+.site_nav .right {
+    margin-right: 95px;
+    z-index: 999;
+}
+
+.site_nav a {
+    text-decoration: none;
+}
+
+.site_nav .left h1 {
+    padding-left: 10px;
+    padding-right: 10px;
+    color: #fff;
+}
+
+.site_nav .right li {
+    list-style: none;
+}
+
+.site_nav .right ul li a {
+    font-family: ZonaPro-Bold;
+    text-decoration: none;
+    font-size: 21px;
+    padding-right: 15px;
+    padding-left: 15px;
+    font-weight: bold;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: left;
+    color: #ffffff;
+}
+
+/* /Main*/
+
+/*Product Benefits*/
+.benefits h2 {
+    font-family: Dosis-Bold;
+    font-size: 46px;
+    font-weight: bold;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: 0.46px;
+    text-align: left;
+    color: #d6d6d6;
+}
+
+.benefits p {
+    font-family: Dosis-Medium;
+    font-size: 19px;
+    font-weight: 300;
+    font-style: normal;
+    font-stretch: normal;
+    letter-spacing: 0.2px;
+    text-align: left;
+    line-height: 2.5;
+    padding-top: 5px;
+    color: #000000;
+}
+
+.benefits_inner > div {
+    padding-top: 100px;
+    padding-bottom: 60px;
+    border-right: solid 1px #a0c025;
+}
+
+.benefits_inner .item-helper {
+    padding-top: 0;
+}
+
+.benefits_inner .item {
+    position: relative;
+}
+
+.benefits_inner .item:last-child {
+    -webkit-transform: translateX(-1px);
+    -moz-transform: translateX(-1px);
+    -ms-transform: translateX(-1px);
+    -o-transform: translateX(-1px);
+    transform: translateX(-1px);
+}
+
+.benefits_inner .item:before {
+    content: '';
+    display: block;
+    position: absolute;
+    width: 115px;
+    height: 6px;
+    top: 60px;
+    left: 30px;
+    background-color: #7ca953;
+}
+
+.benefits_more {
+    position: absolute;
+    background: #fff;
+    width: 100%;
+    height: auto;
+    padding: 65px;
+    border: solid 1px #a0c025;
+    transform: translateY(-130px);
+}
+
+.benefits_more h3 {
+    font-family: Dosis-Medium;
+    font-size: 31px;
+    font-weight: 500;
+    font-style: normal;
+    font-stretch: normal;
+    letter-spacing: 0.31px;
+    margin-bottom: 50px !important;
+    text-align: left;
+    color: #000000;
+}
+
+.benefits_more h1 {
+    font-family: Dosis-Bold;
+    font-size: 61px;
+    font-weight: bold;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1;
+    letter-spacing: 0.81px;
+    text-align: left;
+    color: #7ca953;
+    margin-bottom: 30px;
+}
+
+.benefits_more p {
+    font-family: Dosis-Regular;
+    font-size: 28px;
+    font-weight: 200;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.43;
+    letter-spacing: 0.28px;
+    text-align: left;
+    color: #6a6a6a;
+}
+
+.solid-helper-container {
+    position: absolute;
+    background: transparent;
+    height: 100%;
+}
+
+.solid-item {
+    height: 100%;
+    border-right: solid 1px #fff;
+}
+
+/* /Product Benefits*/
+
+/*Gallery*/
+.gallery {
+    margin-top: 60px;
+    margin-bottom: 150px;
+}
+
+.gallery_header {
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
+.gallery_header h1 {
+    margin-bottom: 40px;
+}
+
+.gallery_header h3 {
+    font-size: 25px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    letter-spacing: 0.25px;
+    text-align: left;
+    color: #7ca953;
+    margin-bottom: 30px
+}
+
+.gallery_header p {
+    font-family: Dosis-Regular;
+    font-size: 28px;
+    font-weight: 200;
+    font-style: normal;
+    font-stretch: normal;
+    letter-spacing: 0.28px;
+    text-align: left;
+    color: #6a6a6a;
+}
+
+.grid-fixed {
+    display: flex;
+    width: 100%;
+    height: 800px;
+    margin-top: 240px;
+    background-color: #7ca953;
+}
+
+.grid-fixed-left {
+    display: flex;
+    flex-direction: column;
+    min-width: 310px;
+    min-height: 100%;
+    height: 100%;
+}
+
+.grid-fixed-right {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    min-height: 100%;
+    width:calc(100% - 310px);
+}
+
+.carousel-g-box {
+    display: flex;
+    width: calc(100% - 145px);
+    min-height: 100%;
+    transform: translateY(-220px);
+}
+
+.carousel-g {
+    width: 100%;
+}
+
+.carousel-g .item {
+    display: flex;
+    width: 100%;
+    -webkit-background-size: cover;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.carousel-g-box .item img {
+    width: 100%;
+}
+
+.carousel-g-box *{
+    height: 100%;
+}
+
+.carousel-g-thumb-box * {
+    height: 100%;
+}
+
+.carousel-g-thumb-box {
+    position: relative;
+    width: 100%;
+    background: black;
+    height: 240px;
+}
+
+.carousel-g-thumb {
+    position: absolute;
+    width: 200%;
+    height: 100%;
+    z-index: 999;
+}
+
+.carousel-g-thumb .item {
+    height: 240px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.carousel-g-thumb-buttons {
+    display: flex;
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+
+.g-header {
+    transform: translateY(-230px);
+}
+
+.g-header:before {
+    content: '';
+    position: absolute;
+    width: 115px;
+    height: 6px;
+    background-color: #7ca953;
+}
+
+.g-header h3 {
+    display: inline-block;
+    font-size: 28px;
+    font-weight: bold;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.43;
+    letter-spacing: 0.28px;
+    text-align: left;
+    color: #b9b9b9;
+}
+
+.carousel-g-thumb-buttons {
+    align-items: center;
+    flex-direction: column;
+    padding: 50px;
+}
+
+.carousel-g-thumb-buttons span {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #fff;
+    margin: 5px;
+    cursor: pointer;
+    width: 52px;
+    height: 52px;
+    padding-top: 7px;
+    padding-bottom: 7px;
+}
+
+.carousel-g-thumb-buttons span.g-left{
+    background-color: rgba(255, 255, 255, 0.2);
+}
+
+.carousel-g-thumb-buttons span img {
+    height: 100%;
+}
+/* /Gallery*/
+
+/*Roofs Shapes & Types*/
+.shapes {
+    margin-top: 100px;
+}
+
+.shape_item__header {
+    margin-bottom: 80px;
+}
+
+.shape_item__header .section-title {
+    display: flex;
+}
+
+.item__content .right ul {
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.item__content {
+    padding-bottom: 70px;
+}
+
+.shapes_inner .shape_item:nth-child(odd) .item_inner {
+    display: flex;
+    flex-direction: column;
+    padding-right: 80px;
+}
+
+.shapes_inner .shape_item:nth-child(even) {
+    -webkit-transform: translateY(-160px);
+    -moz-transform: translateY(-160px);
+    -ms-transform: translateY(-160px);
+    -o-transform: translateY(-160px);
+    transform: translateY(-160px);
+}
+
+.shapes_inner .shape_item:nth-child(even) .item_inner {
+    display: flex;
+    flex-direction: column-reverse;
+}
+
+.shapes_inner .shape_item:nth-child(even) .item__content {
+    padding-top: 70px;
+    padding-left: 70px;
+}
+
+.shapes_inner .shape_item {
+    z-index: 999;
+}
+
+.item__content .right {
+    padding-left: 20px;
+}
+
+.item__content .right li {
+    position: relative;
+    list-style: none;
+    font-family: Dosis-Regular;
+    font-size: 23px;
+    font-weight: 200;
+    font-style: normal;
+    font-stretch: normal;
+    letter-spacing: normal;
+    text-align: left;
+    color: #000000;
+}
+
+.item__content .right li:before {
+    content: "";
+    display: block;
+    position: absolute;
+    width: 1.1rem;
+    height: 1.1rem;
+    background-color: #fff;
+    border: 3px solid #000;
+    border-radius: 50%;
+    top: 1.2rem;
+    left: -30px;
+}
+
+.shapes_inner .left span, .shapes_inner .left h1{
+    font-weight: 800;
+    font-style: normal;
+    font-stretch: normal;
+    letter-spacing: 0.48px;
+    text-align: left;
+    color: #000000;
+}
+
+.shapes_inner .left h1 {
+    font-family: Dosis-Extra-Bold;
+    font-size: 48px;
+}
+
+.shapes_inner span {
+    font-family: Dosis-extra-Light;
+    font-size: 43px;
+}
+
+/* /Roofs Shapes & Types*/
+
+/*Roof Types*/
+.roof-types {
+    display: flex;
+    width: 100%;
+    transform: translateY(-150px);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 800px;
+}
+/* /Roof Types*/
