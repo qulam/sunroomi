@@ -312,7 +312,45 @@
     <!--Roof Types-->
     <section>
         <div class="roof-types" style="background-image: url('./media/img/roof-types/9.png')">
+            <div class="r-carousel-box-header">
+                <h3>Lorem ipsum dolor sit</h3>
+                <h1 class="text-uppercase row">ROOF TYPES</h1>
+            </div>
+            <div class="r-carousel-box">
+                <span class="r-right">
+                    <img src="./media/img/icons/right.png" alt="">
+                </span>
+                <span class="r-left">
+                    <img src="./media/img/icons/left.png" alt="">
+                </span>
 
+                <ul class="r-carousel">
+                    <li class="item col-xs-3">
+                        <img class="img-responsive" src="./media/img/roof-types/22-2.png" alt="">
+                    </li>
+                    <li class="item col-xs-3">
+                        <img class="img-responsive" src="./media/img/roof-types/22-4.png" alt="">
+                    </li>
+                    <li class="item col-xs-3">
+                        <img class="img-responsive" src="./media/img/roof-types/22.png" alt="">
+                    </li>
+                    <li class="item col-xs-3">
+                        <img class="img-responsive" src="./media/img/roof-types/22-3.png" alt="">
+                    </li>
+                    <li class="item col-xs-3">
+                        <img class="img-responsive" src="./media/img/roof-types/22-2.png" alt="">
+                    </li>
+                    <li class="item col-xs-3">
+                        <img class="img-responsive" src="./media/img/roof-types/22-4.png" alt="">
+                    </li>
+                    <li class="item col-xs-3">
+                        <img class="img-responsive" src="./media/img/roof-types/22.png" alt="">
+                    </li>
+                    <li class="item col-xs-3">
+                        <img class="img-responsive" src="./media/img/roof-types/22-3.png" alt="">
+                    </li>
+                </ul>
+            </div>
         </div>
     </section>
     <!-- /Roof Types-->
