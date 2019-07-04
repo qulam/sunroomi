@@ -355,6 +355,32 @@
     </section>
     <!-- /Roof Types-->
 
+    <!--Details & Highlights & Accecories-->
+    <section class="section-full-height">
+        <div class="container details">
+            <div class="row details_inner">
+                <div class="col-lg-4 left">
+                    <div class="content">
+                        <h3 class="text-uppercase">Details, highlights & accessories</h3>
+                        <h1 class="text-uppercase section-title">Individual comfort according <br> to your specifications.</h1>
+                        <p>
+                            A terrace in the garden doesn't just mean more living space,
+                            but also real outdoor space. In summer, life tends to move
+                            outdoors – the terrace is the place for eating, playing, and relaxing,
+                            as long as the weather permits. The SUNFLEX Terrace Roof allows you to
+                            enjoy the outdoor freedom even longer as it offers optimal protection
+                            from wind and bad weather. T
+                        </p>
+                    </div>
+                </div>
+                <div class="col-lg-8 right">
+                    <img src="./media/img/comfort/23.png" class="img-responsive" alt="">
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- /Details & Highlights & Accecories-->
+
 </main>
 <!-- /Main-->
 

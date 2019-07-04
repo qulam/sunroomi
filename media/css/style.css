@@ -148,6 +148,10 @@ ul li a {
     outline: none !important;
 }
 
+.section-full-height {
+    height: 100%;
+}
+
 /* /General*/
 
 /*Header*/
@@ -821,3 +825,64 @@ ul li a {
 /* /Slick Slider Center Mode With Zoom Effect*/
 
 /* /Roof Types*/
+
+/*Details & Highlights & Accecories*/
+.details {
+    display: flex;
+    height: 100%;
+}
+
+.details_inner {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    height: 100%;
+}
+
+.details_inner .left {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100%;
+}
+
+.details_inner .content {
+    width: 100%;
+    padding-right: 60px;
+}
+
+.details_inner .right {
+    z-index: -1;
+    display: flex;
+    height: 100%;
+}
+
+.details_inner .left .content h1 {
+    white-space: nowrap;
+}
+
+.details_inner .left .content h3 {
+    font-style: normal;
+    font-stretch: normal;
+    text-transform: uppercase;
+    text-align: left;
+    color: #000000;
+    font-size: 28px;
+    font-weight: 600;
+    line-height: 1.96;
+    letter-spacing: 0.28px;
+}
+
+.details_inner .left .content p {
+    font-family: Dosis-Light;
+    font-size: 28px;
+    padding-top: 80px;
+    font-weight: 200;
+    font-style: normal;
+    font-stretch: normal;
+    letter-spacing: 0.28px;
+    text-align: left;
+    color: #6a6a6a;
+}
+/* /Details & Highlights & Accecories*/
