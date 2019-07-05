@@ -48,6 +48,10 @@ ul li a {
     margin: 15px !important;
 }
 
+.mt--130 {
+    margin-top: -130px;
+}
+
 .d-block {
     display: block;
 }
@@ -438,7 +442,7 @@ ul li a {
     flex-direction: column;
     height: 100%;
     min-height: 100%;
-    width:calc(100% - 310px);
+    width: calc(100% - 310px);
 }
 
 .carousel-g-box {
@@ -465,7 +469,7 @@ ul li a {
     width: 100%;
 }
 
-.carousel-g-box *{
+.carousel-g-box * {
     height: 100%;
 }
 
@@ -544,13 +548,14 @@ ul li a {
     padding-bottom: 7px;
 }
 
-.carousel-g-thumb-buttons span.g-left{
+.carousel-g-thumb-buttons span.g-left {
     background-color: rgba(255, 255, 255, 0.2);
 }
 
 .carousel-g-thumb-buttons span img {
     height: 100%;
 }
+
 /* /Gallery*/
 
 /*Roofs Shapes & Types*/
@@ -633,7 +638,7 @@ ul li a {
     left: -30px;
 }
 
-.shapes_inner .left span, .shapes_inner .left h1{
+.shapes_inner .left span, .shapes_inner .left h1 {
     font-weight: 800;
     font-style: normal;
     font-stretch: normal;
@@ -662,7 +667,6 @@ ul li a {
     padding-right: 140px;
     padding-bottom: 220px;
     width: 100%;
-    transform: translateY(-150px);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -697,17 +701,21 @@ ul li a {
 .r-carousel-box .slick-slide.lt2 img {
     transform: translate(10%, 0) scale(.6);
 }
+
 .r-carousel-box .slick-slide.lt1 img {
     opacity: .7;
     transform: translate(5%, 0) scale(.8);
 }
+
 .r-carousel-box .slick-slide.gt1 img {
     opacity: .7;
     transform: translate(-5%, 0) scale(.8);
 }
+
 .r-carousel-box .slick-slide.gt2 img {
     transform: translate(-10%, 0) scale(.6);
 }
+
 .r-carousel-box .slick-slide.slick-center li {
     z-index: 1;
     background-color: rgba(255, 255, 255, 0.1);
@@ -725,7 +733,7 @@ ul li a {
 }
 
 .r-carousel-box .slick-prev,
-.r-carousel-box .slick-next{
+.r-carousel-box .slick-next {
     position: absolute;
     top: 50%;
     appearance: none;
@@ -746,6 +754,7 @@ ul li a {
     border-width: 15px 15px 15px 0;
     left: 0;
 }
+
 .r-carousel-box .slick-next {
     width: 0;
     height: 0;
@@ -817,7 +826,7 @@ ul li a {
     right: -40px;
 }
 
-.r-carousel-box .r-left:hover , .r-carousel-box .r-right:hover {
+.r-carousel-box .r-left:hover, .r-carousel-box .r-right:hover {
     background-color: rgba(255, 255, 255, 0.2);
     transition: all 0.3s ease-in-out;
 }
@@ -827,42 +836,49 @@ ul li a {
 /* /Roof Types*/
 
 /*Details & Highlights & Accecories*/
-.details {
-    display: flex;
-    height: 100%;
-}
 
-.details_inner {
+.fixed-box {
+    width: calc(100% - 280px);
+    margin: 0 auto;
     display: flex;
-    align-items: flex-start;
-    justify-content: center;
-    height: 100%;
-}
-
-.details_inner .left {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
     align-items: center;
+    justify-content: center;
+    height: 100%;
+    flex-direction: row;
+}
+
+.fixed-box-left {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-width: 500px;
+    max-width: 30%;
     min-height: 100%;
 }
 
-.details_inner .content {
-    width: 100%;
-    padding-right: 60px;
-}
-
-.details_inner .right {
-    z-index: -1;
+.fixed-box-right {
+    width: 70%;
     display: flex;
-    height: 100%;
+    align-items: center;
+    justify-content: center;
+    min-height: 100%;
+    background-image: url("../img/comfort/23.png");
+    -webkit-background-size: cover;
+    background-size: cover;
+    background-repeat: no-repeat;
+    z-index: -1;
 }
 
-.details_inner .left .content h1 {
+.fixed-box-left .content {
+    max-width: 100%;
+    padding-right: 30px;
+}
+
+.fixed-box-left .content h1 {
     white-space: nowrap;
 }
 
-.details_inner .left .content h3 {
+.fixed-box-left .content h3 {
     font-style: normal;
     font-stretch: normal;
     text-transform: uppercase;
@@ -874,7 +890,7 @@ ul li a {
     letter-spacing: 0.28px;
 }
 
-.details_inner .left .content p {
+.fixed-box-left .content p {
     font-family: Dosis-Light;
     font-size: 28px;
     padding-top: 80px;
@@ -885,4 +901,118 @@ ul li a {
     text-align: left;
     color: #6a6a6a;
 }
+
 /* /Details & Highlights & Accecories*/
+
+/*Click & Explore Closer*/
+.explore-click-details {
+    position: relative;
+    display: flex;
+    width: 100%;
+    height: 100%;
+    background-color: #dcf0c9;
+}
+
+.click-center {
+    margin: 0 auto;
+}
+
+.explore-click-details .fixed-content {
+    position: absolute;
+    padding: 80px;
+    border: solid 1px #a0c025;
+    background-color: #7ca953;
+    right: 140px;
+    bottom: -140px;
+}
+
+.explore-click-details .fixed-content {
+    font-family: Dosis-Medium;
+    font-weight: 600;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.98;
+    letter-spacing: 0.22px;
+    text-align: left;
+    color: #000000;
+}
+
+.explore-click-details .fixed-content h1 {
+    font-size: 48px;
+}
+
+/* /Click & Explore Closer*/
+
+/*Well Protected*/
+.protected {
+    padding-top: 135px;
+}
+
+.pro_header {
+    margin-bottom: 100px;
+}
+
+.pro-list .list-item {
+    display: inline-block;
+    margin-top: 50px;
+}
+
+.pro-list .list-item .item-helper {
+    padding-left: 0px;
+}
+
+.pro-list .list-item:before {
+    content: '';
+    display: block;
+    width: 108px;
+    height: 10px;
+    background-color: #7ca953;
+    position: absolute;
+    left: 15px;
+}
+
+.pro-list .list-item h3 {
+    font-family: Dosis-Bold;
+    font-size: 28px;
+    font-weight: bold;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 2.71;
+    letter-spacing: 0.28px;
+    text-align: left;
+    color: #000000;
+    text-transform: uppercase;
+}
+
+.pro-list .list-item p {
+    font-family: Dosis-Regular;
+    font-size: 28px;
+    font-weight: 300;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: 0.28px;
+    text-align: left;
+    color: #484848;
+}
+
+.more-contain {
+    display: block;
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+
+.more-contain a, .more-contain span, .more-contain button {
+    font-family: Dosis-Medium;
+    font-size: 28px;
+    font-weight: 500;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: 0.28px;
+    text-align: left;
+    color: #7ca953;
+    outline: none;
+    text-decoration: none;
+}
+/* /Well Protected*/

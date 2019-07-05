@@ -310,7 +310,7 @@
     <!--Roofs Shapes & Types-->
 
     <!--Roof Types-->
-    <section>
+    <section class="mt--130">
         <div class="roof-types" style="background-image: url('./media/img/roof-types/9.png')">
             <div class="r-carousel-box-header">
                 <h3>Lorem ipsum dolor sit</h3>
@@ -355,31 +355,151 @@
     </section>
     <!-- /Roof Types-->
 
-    <!--Details & Highlights & Accecories-->
+    <!--Details & Highlights & Accecories -->
     <section class="section-full-height">
-        <div class="container details">
-            <div class="row details_inner">
-                <div class="col-lg-4 left">
-                    <div class="content">
-                        <h3 class="text-uppercase">Details, highlights & accessories</h3>
-                        <h1 class="text-uppercase section-title">Individual comfort according <br> to your specifications.</h1>
-                        <p>
-                            A terrace in the garden doesn't just mean more living space,
-                            but also real outdoor space. In summer, life tends to move
-                            outdoors – the terrace is the place for eating, playing, and relaxing,
-                            as long as the weather permits. The SUNFLEX Terrace Roof allows you to
-                            enjoy the outdoor freedom even longer as it offers optimal protection
-                            from wind and bad weather. T
-                        </p>
-                    </div>
+        <div class="fixed-box">
+            <div class="fixed-box-left">
+                <div class="content">
+                    <h3 class="text-uppercase">Details, highlights & accessories</h3>
+                    <h1 class="text-uppercase section-title">Individual comfort according <br> to your specifications.
+                    </h1>
+                    <p>
+                        A terrace in the garden doesn't just mean more living space,
+                        but also real outdoor space. In summer, life tends to move
+                        outdoors – the terrace is the place for eating, playing, and relaxing,
+                        as long as the weather permits. The SUNFLEX Terrace Roof allows you to
+                        enjoy the outdoor freedom even longer as it offers optimal protection
+                        from wind and bad weather. T
+                    </p>
                 </div>
-                <div class="col-lg-8 right">
-                    <img src="./media/img/comfort/23.png" class="img-responsive" alt="">
-                </div>
+            </div>
+            <div class="fixed-box-right">
+
             </div>
         </div>
     </section>
-    <!-- /Details & Highlights & Accecories-->
+    <!-- /Details & Highlights & Accecories -->
+
+    <!--Click & Explore Closer-->
+    <section class="section-full-height">
+        <div class="explore-click-details">
+            <div class="click-center d-flex-center">
+                <img src="./media/img/details/24.png" alt="" class="img-responsive">
+            </div>
+
+            <div class="fixed-content">
+                <h3 class="text-uppercase">Details, highlights & accessories</h3>
+                <h1 class="section-title">CLİCK & EXPLORE <br> CLOSER</h1>
+            </div>
+        </div>
+    </section>
+    <!-- /Click & Explore Closer-->
+
+    <!--Well Protected-->
+    <section>
+        <div class="protected container">
+            <div class="pro_header">
+                <h3 class="text-uppercase">Product benefits</h3>
+                <h1 class="section-title">Well-protected at all times.</h1>
+            </div>
+            <div class="pro-body">
+                <ul class="pro-list row">
+
+                    <li class="list-item col-lg-4">
+                        <div class="item-helper">
+                            <h3>All seasons</h3>
+                            <p>
+                                A terrace in the garden doesn't just mean more
+                                living space, but also real outdoor space,
+                                in the garden doesn't just mean more
+                                living space, but also real outdoor space
+                            </p>
+                            <div class="more-contain">
+                                <a href="">learn more</a>
+                            </div>
+                        </div>
+                    </li>
+
+                    <li class="list-item col-lg-4">
+                        <div class="item-helper">
+                            <h3>Dimable lights</h3>
+                            <p>
+                                A terrace in the garden doesn't just mean more
+                                living space, but also real outdoor space,
+                                in the garden doesn't just mean more
+                                living space, but also real outdoor space
+                            </p>
+                            <div class="more-contain">
+                                <a href="">learn more</a>
+                            </div>
+                        </div>
+                    </li>
+
+                    <li class="list-item col-lg-4">
+                        <div class="item-helper">
+                            <h3>Resists bad weather</h3>
+                            <p>
+                                A terrace in the garden doesn't just mean more
+                                living space, but also real outdoor space,
+                                in the garden doesn't just mean more
+                                living space, but also real outdoor space
+                            </p>
+                            <div class="more-contain">
+                                <a href="">learn more</a>
+                            </div>
+                        </div>
+                    </li>
+
+                    <li class="list-item col-lg-4">
+                        <div class="item-helper">
+                            <h3>Combats UV Rays</h3>
+                            <p>
+                                A terrace in the garden doesn't just mean more
+                                living space, but also real outdoor space,
+                                in the garden doesn't just mean more
+                                living space, but also real outdoor space
+                            </p>
+                            <div class="more-contain">
+                                <a href="">learn more</a>
+                            </div>
+                        </div>
+                    </li>
+
+                    <li class="list-item col-lg-4">
+                        <div class="item-helper">
+                            <h3>COMBATS UV RAYS</h3>
+                            <p>
+                                A terrace in the garden doesn't just mean more
+                                living space, but also real outdoor space,
+                                in the garden doesn't just mean more
+                                living space, but also real outdoor space
+                            </p>
+                            <div class="more-contain">
+                                <a href="">learn more</a>
+                            </div>
+                        </div>
+                    </li>
+
+                    <li class="list-item col-lg-4">
+                        <div class="item-helper">
+                            <h3>Remote controlled</h3>
+                            <p>
+                                A terrace in the garden doesn't just mean more
+                                living space, but also real outdoor space,
+                                in the garden doesn't just mean more
+                                living space, but also real outdoor space
+                            </p>
+                            <div class="more-contain">
+                                <a href="">learn more</a>
+                            </div>
+                        </div>
+                    </li>
+
+                </ul>
+            </div>
+        </div>
+    </section>
+    <!-- /Well Protected-->
 
 </main>
 <!-- /Main-->
