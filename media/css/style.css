@@ -1,8 +1,6 @@
 body, html {
     margin: 0;
     padding: 0;
-    height: 100%;
-    height: 100%;
     box-sizing: border-box;
     line-height: normal !important;
     font-family: "Dosis-Medium";
@@ -153,7 +151,11 @@ ul li a {
 }
 
 .section-full-height {
+    /*height: 100%;*/
     height: 100%;
+    height: -moz-available;          /* WebKit-based browsers will ignore this. */
+    height: -webkit-fill-available;  /* Mozilla-based browsers will ignore this. */
+    height: fill-available;
 }
 
 /* /General*/
@@ -211,11 +213,17 @@ ul li a {
     min-height: 100%;
     margin-left: 50px;
     margin-right: 50px;
+    height: -moz-available;          /* WebKit-based browsers will ignore this. */
+    height: -webkit-fill-available;  /* Mozilla-based browsers will ignore this. */
+    height: fill-available;
 }
 
 .main_top__inner {
     min-height: 100%;
     width: 100%;
+    height: -moz-available;          /* WebKit-based browsers will ignore this. */
+    height: -webkit-fill-available;  /* Mozilla-based browsers will ignore this. */
+    height: fill-available;
     padding-top: 50px;
     background-image: url("../img/main/1.png");
     background-size: cover;
@@ -375,6 +383,9 @@ ul li a {
     position: absolute;
     background: transparent;
     height: 100%;
+    height: -moz-available;          /* WebKit-based browsers will ignore this. */
+    height: -webkit-fill-available;  /* Mozilla-based browsers will ignore this. */
+    height: fill-available;
 }
 
 .solid-item {
@@ -844,6 +855,9 @@ ul li a {
     align-items: center;
     justify-content: center;
     height: 100%;
+    height: -moz-available;          /* WebKit-based browsers will ignore this. */
+    height: -webkit-fill-available;  /* Mozilla-based browsers will ignore this. */
+    height: fill-available;
     flex-direction: row;
 }
 
@@ -862,7 +876,11 @@ ul li a {
     align-items: center;
     justify-content: center;
     min-height: 100%;
-    background-image: url("../img/comfort/23.png");
+    height: 100%;
+    height: -moz-available; /* WebKit-based browsers will ignore this. */
+    height: fill-available;
+    height: -webkit-fill-available;  /* Mozilla-based browsers will ignore this. */
+    background-image: url('../img/comfort/23.png');
     -webkit-background-size: cover;
     background-size: cover;
     background-repeat: no-repeat;
@@ -910,6 +928,9 @@ ul li a {
     display: flex;
     width: 100%;
     height: 100%;
+    height: -moz-available;          /* WebKit-based browsers will ignore this. */
+    height: -webkit-fill-available;  /* Mozilla-based browsers will ignore this. */
+    height: fill-available;
     background-color: #dcf0c9;
 }
 
@@ -945,7 +966,7 @@ ul li a {
 
 /*Well Protected*/
 .protected {
-    padding-top: 135px;
+    margin-top: 140px;
 }
 
 .pro_header {
@@ -959,6 +980,7 @@ ul li a {
 
 .pro-list .list-item .item-helper {
     padding-left: 0px;
+    padding-right: 100px;
 }
 
 .pro-list .list-item:before {
@@ -1016,3 +1038,308 @@ ul li a {
     text-decoration: none;
 }
 /* /Well Protected*/
+
+/*Our Projects*/
+.projects {
+    position: relative;
+    margin-top: 140px;
+    width: 100%;
+}
+
+.projects .center-title {
+    position: absolute;
+    width: 100%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.projects .center-title h1 {
+    font-family: Dosis-Medium;
+    font-size: 190px;
+    font-weight: 500;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 0.42;
+    letter-spacing: 1.9px;
+    text-align: center;
+    color: #ffffff;
+}
+
+.projects_in {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.projects_in .item {
+    display: flex;
+    width: 16.66%;
+}
+
+.projects_in .item img {
+    width: 100%;
+}
+/* /Our Projects*/
+
+/*Latest News*/
+.news {
+    margin-top: 140px;
+}
+
+.news_in__body {
+    padding-top: 140px;
+    padding-bottom: 140px;
+}
+
+.news_in__header h1 {
+    font-family: Dosis-Medium;
+    font-size: 81px;
+    font-weight: bold;
+    font-style: normal;
+    font-stretch: normal;
+    letter-spacing: 0.81px;
+    text-align: center;
+    color: #7ca953;
+}
+
+.news_in__body ul li {
+    list-style: none;
+}
+
+.news_in .news_list .list-item h3{
+    font-family: Dosis-Bold;
+    font-size: 28px;
+    font-weight: bold;
+    font-style: normal;
+    font-stretch: normal;
+    letter-spacing: 0.28px;
+    text-align: left;
+    color: #000000;
+}
+
+.news_in .news_list .list-item {
+    padding-right: 100px;
+}
+
+.news_in .news_list .list-item p {
+    font-family: Dosis-Regular;
+    font-size: 28px;
+    font-weight: 300;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: 0.28px;
+    text-align: left;
+    margin-top: 20px;
+    margin-bottom: 0px;
+    color: #484848;
+}
+
+.news_in .button-group {
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+.news_in .news_list .list-item h3:first-child{
+    font-family: Dosis-Medium;
+    font-size: 25px;
+    font-weight: 600;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.6;
+    letter-spacing: 0.25px;
+    text-align: left;
+    color: #7ca953;
+}
+/* /Latest News*/
+
+/*Footer */
+.footer {
+    position: relative;
+    width: 100%;
+    background-image: url("../img/background/25.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.footer .logo {
+    display: flex;
+    justify-content: flex-start;
+    padding-top: 75px;
+    padding-bottom: 45px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.footer .logo a {
+    text-decoration: none;
+}
+
+.footer .logo h1 {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.footer .footer_inner .left p {
+    font-family: Dosis-Regular;
+    font-size: 21px;
+    font-weight: 300;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: 0.23px;
+    text-align: left;
+    color: #484848;
+}
+
+.footer .footer_inner .left p:first-child {
+    margin-bottom: 50px;
+}
+
+.footer .footer_link li {
+    list-style: none;
+}
+
+.footer .footer_link li a {
+    font-family: Dosis-Regular;
+    font-size: 21px;
+    font-weight: 300;
+    font-style: normal;
+    font-stretch: normal;
+    letter-spacing: 0.24px;
+    border-right: 1px solid;
+    height: auto;
+    text-align: left;
+    padding-right: 10px;
+    padding-left: 10px;
+    color: #484848;
+}
+
+.footer .footer_link li a:last-child {
+    border-right: none;
+}
+
+.footer .join_us h3 {
+    font-family: Dosis-Medium;
+    font-size: 27px;
+    font-weight: bold;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: left;
+    color: #838383;
+}
+
+.footer .join_us {
+    padding-left: 10px;
+}
+
+.footer .join_us li span {
+    font-size: 35px;
+}
+
+.footer .join_us li a {
+    margin-right: 10px;
+}
+
+.footer .join_us {
+    padding-top: 45px;
+    padding-bottom: 45px;
+}
+
+.footer .subscribe h3 {
+    font-family: Dosis-Bold;
+    font-size: 27px;
+    font-weight: bold;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    margin-top: 0 !important;
+    margin-bottom: 35px;
+    text-align: left;
+    color: #838383;
+}
+
+.footer .subscribe .input-button {
+    display: flex;
+}
+
+.footer .subscribe input {
+    outline: none !important;
+}
+
+.footer .subscribe .input-button input[type = email] {
+    font-family: Dosis-Medium;
+    height: 62px;
+    width: 100%;
+    border: solid 2px #dcdcdc;
+    background-color: #dcdcdc;
+    font-size: 23px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    padding-left: 25px;
+    letter-spacing: normal;
+    display: flex;
+    align-items: center;
+    color: #838383;
+}
+
+.footer .subscribe .input-button input[type = submit] {
+    padding-right: 45px;
+    padding-left: 45px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border: solid 2px #a4da22;
+    background-color: #7ca953;
+    font-family: Dosis-Medium;
+    font-size: 23px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: right;
+    color: #fffffe;
+}
+
+.footer .subscribe .content {
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.footer .subscribe .content p {
+    font-family: Dosis-Regular;
+    font-size: 21px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.33;
+    letter-spacing: normal;
+    text-align: left;
+    margin-bottom: 25px;
+    color: #3b3b3b;
+}
+
+.footer .subscribe .content p > a {
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.33;
+    letter-spacing: normal;
+    text-align: left;
+    margin-bottom: 25px;
+    color: #3b3b3b;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.5);
+    text-decoration: none;
+}
+
+.footer .subscribe .content p:last-child {
+    padding-left: 60px;
+}
+
+/* /Footer */

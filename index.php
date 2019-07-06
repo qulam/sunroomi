@@ -49,10 +49,8 @@
 </header>
 <!-- /Header-->
 
-<!--Main-->
+<!--Top-->
 <main role="main" class="main">
-
-    <!--Top-->
     <section class="main_top d-flex-center">
         <div class="solid-helper-container">
             <div class="col-lg-2 solid-item"></div>
@@ -501,12 +499,203 @@
     </section>
     <!-- /Well Protected-->
 
+    <!--Our Projects-->
+    <section>
+        <div class="projects d-flex-center">
+            <div class="center-title">
+                <h1 class="text-uppercase">OUR PROJECTS</h1>
+            </div>
+            <!--project items-->
+            <div class="projects_in">
+                <div class="item">
+                    <img src="./media/img/projets/24.png" alt="">
+                </div>
+                <div class="item">
+                    <img src="./media/img/projets/23.png" alt="">
+                </div>
+                <div class="item">
+                    <img src="./media/img/projets/22.png" alt="">
+                </div>
+                <div class="item">
+                    <img src="./media/img/projets/21.png" alt="">
+                </div>
+                <div class="item">
+                    <img src="./media/img/projets/20.png" alt="">
+                </div>
+                <div class="item">
+                    <img src="./media/img/projets/19.png" alt="">
+                </div>
+                <div class="item">
+                    <img src="./media/img/projets/18.png" alt="">
+                </div>
+                <div class="item">
+                    <img src="./media/img/projets/17.png" alt="">
+                </div>
+                <div class="item">
+                    <img src="./media/img/projets/17.png" alt="">
+                </div>
+                <div class="item">
+                    <img src="./media/img/projets/24.png" alt="">
+                </div>
+                <div class="item">
+                    <img src="./media/img/projets/23.png" alt="">
+                </div>
+                <div class="item">
+                    <img src="./media/img/projets/22.png" alt="">
+                </div>
+                <div class="item">
+                    <img src="./media/img/projets/21.png" alt="">
+                </div>
+                <div class="item">
+                    <img src="./media/img/projets/20.png" alt="">
+                </div>
+                <div class="item">
+                    <img src="./media/img/projets/19.png" alt="">
+                </div>
+                <div class="item">
+                    <img src="./media/img/projets/19.png" alt="">
+                </div>
+                <div class="item">
+                    <img src="./media/img/projets/18.png" alt="">
+                </div>
+                <div class="item">
+                    <img src="./media/img/projets/17.png" alt="">
+                </div>
+            </div>
+            <!-- /project items-->
+        </div>
+    </section>
+    <!-- /Our Projects-->
+
+    <!--Latest News-->
+    <section>
+        <div class="container news">
+            <div class="news_in">
+                <div class="news_in__header">
+                    <h1 class="text-uppercase">LATEST NEWS</h1>
+                </div>
+                <div class="news_in__body">
+                    <ul class="row news_list">
+
+                        <!--first item-->
+                        <li class="col-lg-4 list-item">
+                            <h3>17.01.2019</h3>
+                            <h3>First Class System</h3>
+                            <p>
+                                A terrace in the garden doesn't just mean more
+                                living space, but also real outdoor space,
+                                in the garden doesn't just mean more
+                                living space, but also real outdoor space
+                            </p>
+                            <div class="button-group">
+                                <a href="" class="text-uppercase button-full">MORE INFO</a>
+                            </div>
+                        </li>
+                        <!-- /first item-->
+
+                        <!--second item-->
+                        <li class="col-lg-4 list-item">
+                            <h3>17.01.2019</h3>
+                            <h3>Second Class System</h3>
+                            <p>
+                                A terrace in the garden doesn't just mean more
+                                living space, but also real outdoor space,
+                                in the garden doesn't just mean more
+                                living space, but also real outdoor space
+                            </p>
+                            <div class="button-group">
+                                <a href="" class="text-uppercase button-full">MORE INFO</a>
+                            </div>
+                        </li>
+                        <!-- /second item-->
+
+                        <!--third item-->
+                        <li class="col-lg-4 list-item">
+                            <h3>17.01.2019</h3>
+                            <h3>Third Class System</h3>
+                            <p>
+                                A terrace in the garden doesn't just mean more
+                                living space, but also real outdoor space,
+                                in the garden doesn't just mean more
+                                living space, but also real outdoor space
+                            </p>
+                            <div class="button-group">
+                                <a href="" class="text-uppercase button-full">MORE INFO</a>
+                            </div>
+                        </li>
+                        <!-- /third item-->
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- /Latest News-->
 </main>
 <!-- /Main-->
 
 <!--Footer-->
 <footer>
-    <!--Some codes ...-->
+    <div class="footer d-flex-center">
+        <div class="container">
+            <div class="row footer_inner">
+                <div class="logo">
+                    <a href="" class="d-flex-center">
+                        <img src="./media/img/logos/logo-footer.png" alt="" class="img-responsive d-inline-b">
+                        <h1 class="text-uppercase d-inline-b">SUNROOMI</h1>
+                    </a>
+                </div>
+                <div class="col-lg-3 left">
+                    <p>
+                        A terrace in the garden doesn't just mean more  living space, but also real  outdoor space,
+                        in the garden doesn't just mean more  living space, but also real  outdoor space
+                    </p>
+                    <p>
+                        <span>COPYRIGHT © 2018</span>
+                        Sunrooms Sunrooms
+                        All Rights Reserved
+                    </p>
+                </div>
+                <div class="col-lg-4 col-lg-offset-1 center">
+                    <div class="footer_link">
+                        <ul class="link-items">
+                            <li class="list-item d-inline-b"><a href="" class="d-flex-center">Home</a></li>
+                            <li class="list-item d-inline-b"><a href="" class="d-flex-center">Products</a></li>
+                            <li class="list-item d-inline-b"><a href="" class="d-flex-center">Gallery</a></li>
+                            <li class="list-item d-inline-b"><a href="" class="d-flex-center">News</a></li>
+                            <li class="list-item d-inline-b"><a href="" class="d-flex-center">Projects</a></li>
+                            <li class="list-item d-inline-b"><a href="" class="d-flex-center">Contacts</a></li>
+                        </ul>
+                    </div>
+                    <div class="join_us">
+                        <h3 class="text-uppercase">JOIN US</h3>
+                        <ul class="social">
+                            <li class="d-inline-b"><a class="d-flex-center" href=""><span><i class="fab fa-google-plus"></i></span></a>
+                            </li>
+                            <li class="d-inline-b"><a class="d-flex-center" href=""><span><i class="fab fa-instagram"></i></span></a>
+                            </li>
+                            <li class="d-inline-b"><a class="d-flex-center" href=""><span><i class="fab fa-youtube"></i></span></a></li>
+                            <li class="d-inline-b"><a class="d-flex-center" href=""><span><i class="fab fa-facebook"></i></span></a>
+                            <li class="d-inline-b"><a class="d-flex-center" href=""><span><i class="fab fa-twitter"></i></span></a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-lg-offset-1 subscribe">
+                    <h3>SUBSCRIBE TO NEWSLETTERS</h3>
+                    <div class="input-button">
+                        <input type="email" name="email" placeholder="email"/>
+                        <input type="submit" id="btn_submit" value="OK"/>
+                    </div>
+                    <div class="content">
+                        <p><span>Address:</span><br>85 BROAD ST, SUITE 28-36, NEW YORK, NY 10004</p>
+                        <p><span>E-mail:</span><a href=""> info@sunroomi.com</a></p>
+                        <p class="m-0"><span>Phone:</span> +(800) 967-0991</p>
+                        <p>+(800) 967-0992</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
 </footer>
 <!-- /Footer-->
 
