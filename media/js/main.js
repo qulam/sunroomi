@@ -89,3 +89,28 @@ $(document).ready(function(){
 /* /Roof Types Carousel Center Mode With Zoom Effect*/
 
 /* /Javascript Document*/
+
+
+/*Animated Scroll Down Custom Plugin*/
+(function($){
+
+    $.fn.Route = function(){
+        var e = $(this);
+        var id = e.attr('href');
+        var routingE = $('#' + id);
+        var routingEoffset = routingE.offset().top;
+
+        $("html, body").animate({ scrollTop: routingEoffset }, 1500);
+    }
+
+
+    $(document).on('click', '.link-route', function(e){
+        e.preventDefault();
+        $(this).Route();
+    });
+
+
+})(jQuery);
+
+
+/* /Animated Scroll Down Custom Plugin*/

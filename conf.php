@@ -68,10 +68,10 @@
                 </div>
                 <div class="right">
                     <ul>
-                        <li class="d-inline-b"><a class="d-flex-center link-route" href="products">PRODUCTS</a></li>
-                        <li class="d-inline-b"><a class="d-flex-center link-route" href="gallery">GALLERY</a></li>
-                        <li class="d-inline-b"><a class="d-flex-center link-route" href="projects">PROJECTS</a></li>
-                        <li class="d-inline-b"><a class="d-flex-center link-route" href="contacts">CONTACTS</a></li>
+                        <li class="d-inline-b"><a class="d-flex-center" href="">PRODUCTS</a></li>
+                        <li class="d-inline-b"><a class="d-flex-center" href="">GALLERY</a></li>
+                        <li class="d-inline-b"><a class="d-flex-center" href="">PROJECTS</a></li>
+                        <li class="d-inline-b"><a class="d-flex-center" href="">CONTACTS</a></li>
                     </ul>
                 </div>
             </nav>
@@ -119,7 +119,7 @@
     <!-- /Product Benefits-->
 
     <!--Gallery-->
-    <section id="gallery">
+    <section>
         <div class="container gallery">
             <div class="gallery_header">
                 <h1 class="section-title">Extend your summer.</h1>
@@ -148,10 +148,10 @@
                     </div>
                 </div>
                 <div class="carousel-g-thumb-buttons">
-                    <span class="g-right no-select">
+                    <span class="g-right">
                         <img src="./media/img/icons/right.png" alt="">
                     </span>
-                    <span class="g-left no-select">
+                    <span class="g-left">
                           <img src="./media/img/icons/left.png" alt="">
                     </span>
                 </div>
@@ -176,222 +176,6 @@
         </div>
     </section>
     <!-- /Gallery-->
-
-    <!--Roofs Shapes & Types-->
-    <section>
-        <div class="container shapes">
-            <div class="shapes_inner row">
-
-                <!--First item-->
-                <div class="col-lg-6 shape_item">
-
-                    <!--This Header Has Only Inside First Item-->
-                    <div class="shape_item__header">
-                        <h3 class="text-uppercase">Roof shapes & types</h3>
-                        <h1 class="section-title">Variety to suit your needs.</h1>
-                    </div>
-                    <!-- /This Header Has Only Inside First Item-->
-                    <div class="item_inner">
-                        <div class="item__content row">
-                            <div class="col-lg-3 left">
-                                <h1 class="section-title">SF 112</h1>
-                                <span>SERIES</span>
-                            </div>
-                            <div class="col-lg-8 col-lg-offset-1 right">
-                                <ul>
-                                    <li>aluminium construction</li>
-                                    <li>rafter height 112 mm</li>
-                                    <li>without forward-facing overhang</li>
-                                    <li>the roof will be manufactured according to your specifications</li>
-                                    <li>possible glass thicknesses of 8 mm - 32mm</li>
-                                    <li>roof inclination 3° –45° (depending on the type)</li>
-                                    <li>supports indented by max 1,000 mm</li>
-                                    <li>DIN EN 1090 certified</li>
-                                </ul>
-                            </div>
-                        </div>
-                        <div class="item__picture row">
-                            <img class="img-responsive" src="./media/img/your-needs/5.png" alt="">
-                        </div>
-                    </div>
-                </div>
-                <!-- /First item-->
-
-                <!--Second item-->
-                <div class="col-lg-6 shape_item">
-                    <div class="item_inner">
-                        <div class="item__content row">
-                            <div class="col-lg-3 left">
-                                <h1 class="section-title">SF 112</h1>
-                                <span>SERIES</span>
-                            </div>
-                            <div class="col-lg-8 col-lg-offset-1 right">
-                                <ul>
-                                    <li>aluminium construction</li>
-                                    <li>rafter height 112 mm</li>
-                                    <li>without forward-facing overhang</li>
-                                    <li>the roof will be manufactured according to your specifications</li>
-                                    <li>possible glass thicknesses of 8 mm - 32mm</li>
-                                    <li>roof inclination 3° –45° (depending on the type)</li>
-                                    <li>supports indented by max 1,000 mm</li>
-                                    <li>DIN EN 1090 certified</li>
-                                </ul>
-                            </div>
-                        </div>
-                        <div class="item__picture row">
-                            <img class="img-responsive" src="./media/img/your-needs/8.png" alt="">
-                        </div>
-                    </div>
-                </div>
-                <!-- /Second item-->
-
-                <!--Third item-->
-                <div class="col-lg-6 shape_item">
-                    <div class="item_inner">
-                        <div class="item__content row">
-                            <div class="col-lg-3 left">
-                                <h1 class="section-title">SF 112</h1>
-                                <span>SERIES</span>
-                            </div>
-                            <div class="col-lg-8 col-lg-offset-1 right">
-                                <ul>
-                                    <li>aluminium construction</li>
-                                    <li>rafter height 112 mm</li>
-                                    <li>without forward-facing overhang</li>
-                                    <li>the roof will be manufactured according to your specifications</li>
-                                    <li>possible glass thicknesses of 8 mm - 32mm</li>
-                                    <li>roof inclination 3° –45° (depending on the type)</li>
-                                    <li>supports indented by max 1,000 mm</li>
-                                    <li>DIN EN 1090 certified</li>
-                                </ul>
-                            </div>
-                        </div>
-                        <div class="item__picture row">
-                            <img class="img-responsive" src="./media/img/your-needs/6.png" alt="">
-                        </div>
-                    </div>
-                </div>
-                <!-- /Third item-->
-
-
-                <!--Fourth item-->
-                <div class="col-lg-6 shape_item">
-                    <div class="item_inner">
-                        <div class="item__content row">
-                            <div class="col-lg-3 left">
-                                <h1 class="section-title">SF 112</h1>
-                                <span>SERIES</span>
-                            </div>
-                            <div class="col-lg-8 col-lg-offset-1 right">
-                                <ul>
-                                    <li>aluminium construction</li>
-                                    <li>rafter height 112 mm</li>
-                                    <li>without forward-facing overhang</li>
-                                    <li>the roof will be manufactured according to your specifications</li>
-                                    <li>possible glass thicknesses of 8 mm - 32mm</li>
-                                    <li>roof inclination 3° –45° (depending on the type)</li>
-                                    <li>supports indented by max 1,000 mm</li>
-                                    <li>DIN EN 1090 certified</li>
-                                </ul>
-                            </div>
-                        </div>
-                        <div class="item__picture row">
-                            <img class="img-responsive" src="./media/img/your-needs/7.png" alt="">
-                        </div>
-                    </div>
-                </div>
-                <!-- /Fourth item-->
-
-            </div>
-        </div>
-    </section>
-    <!--Roofs Shapes & Types-->
-
-    <!--Roof Types-->
-    <section class="mt--130" id="products">
-        <div class="roof-types" style="background-image: url('./media/img/roof-types/9.png')">
-            <div class="r-carousel-box-header">
-                <h3>Lorem ipsum dolor sit</h3>
-                <h1 class="text-uppercase row">ROOF TYPES</h1>
-            </div>
-            <div class="r-carousel-box">
-                <span class="r-right  no-select">
-                    <img src="./media/img/icons/right.png" alt="">
-                </span>
-                <span class="r-left  no-select">
-                    <img src="./media/img/icons/left.png" alt="">
-                </span>
-
-                <ul class="r-carousel">
-                    <li class="item col-xs-3">
-                        <img class="img-responsive" src="./media/img/roof-types/22-2.png" alt="">
-                    </li>
-                    <li class="item col-xs-3">
-                        <img class="img-responsive" src="./media/img/roof-types/22-4.png" alt="">
-                    </li>
-                    <li class="item col-xs-3">
-                        <img class="img-responsive" src="./media/img/roof-types/22.png" alt="">
-                    </li>
-                    <li class="item col-xs-3">
-                        <img class="img-responsive" src="./media/img/roof-types/22-3.png" alt="">
-                    </li>
-                    <li class="item col-xs-3">
-                        <img class="img-responsive" src="./media/img/roof-types/22-2.png" alt="">
-                    </li>
-                    <li class="item col-xs-3">
-                        <img class="img-responsive" src="./media/img/roof-types/22-4.png" alt="">
-                    </li>
-                    <li class="item col-xs-3">
-                        <img class="img-responsive" src="./media/img/roof-types/22.png" alt="">
-                    </li>
-                    <li class="item col-xs-3">
-                        <img class="img-responsive" src="./media/img/roof-types/22-3.png" alt="">
-                    </li>
-                </ul>
-            </div>
-        </div>
-    </section>
-    <!-- /Roof Types-->
-
-    <!--Details & Highlights & Accecories -->
-    <section class="section-full-height">
-        <div class="fixed-box">
-            <div class="fixed-box-left">
-                <div class="content">
-                    <h3 class="text-uppercase">Details, highlights & accessories</h3>
-                    <h1 class="text-uppercase section-title">Individual comfort according <br> to your specifications.
-                    </h1>
-                    <p>
-                        A terrace in the garden doesn't just mean more living space,
-                        but also real outdoor space. In summer, life tends to move
-                        outdoors – the terrace is the place for eating, playing, and relaxing,
-                        as long as the weather permits. The SUNFLEX Terrace Roof allows you to
-                        enjoy the outdoor freedom even longer as it offers optimal protection
-                        from wind and bad weather. T
-                    </p>
-                </div>
-            </div>
-            <div class="fixed-box-right">
-
-            </div>
-        </div>
-    </section>
-    <!-- /Details & Highlights & Accecories -->
-
-    <!--Click & Explore Closer-->
-    <section class="section-full-height">
-        <div class="explore-click-details">
-            <div class="click-center d-flex-center">
-                <img src="./media/img/details/24.png" alt="" class="img-responsive">
-            </div>
-
-            <div class="fixed-content">
-                <h3 class="text-uppercase">Details, highlights & accessories</h3>
-                <h1 class="section-title">CLİCK & EXPLORE <br> CLOSER</h1>
-            </div>
-        </div>
-    </section>
-    <!-- /Click & Explore Closer-->
 
     <!--Well Protected-->
     <section>
@@ -500,7 +284,7 @@
     <!-- /Well Protected-->
 
     <!--Our Projects-->
-    <section id="projects">
+    <section>
         <div class="projects d-flex-center">
             <div class="center-title">
                 <h1 class="text-uppercase">OUR PROJECTS</h1>
@@ -634,7 +418,7 @@
 <!-- /Main-->
 
 <!--Footer-->
-<footer id="contacts">
+<footer>
     <div class="footer d-flex-center">
         <div class="container">
             <div class="row footer_inner">
@@ -658,12 +442,12 @@
                 <div class="col-lg-4 col-lg-offset-1 center">
                     <div class="footer_link">
                         <ul class="link-items">
-                            <li class="list-item d-inline-b"><a href="home" class="d-flex-center link-route">Home</a></li>
-                            <li class="list-item d-inline-b"><a href="products" class="d-flex-center link-route">Products</a></li>
-                            <li class="list-item d-inline-b"><a href="gallery" class="d-flex-center link-route">Gallery</a></li>
-                            <li class="list-item d-inline-b"><a href="news" class="d-flex-center link-route">News</a></li>
-                            <li class="list-item d-inline-b"><a href="projects" class="d-flex-center link-route">Projects</a></li>
-                            <li class="list-item d-inline-b"><a href="contacts" class="d-flex-center link-route">Contacts</a></li>
+                            <li class="list-item d-inline-b"><a href="" class="d-flex-center">Home</a></li>
+                            <li class="list-item d-inline-b"><a href="" class="d-flex-center">Products</a></li>
+                            <li class="list-item d-inline-b"><a href="" class="d-flex-center">Gallery</a></li>
+                            <li class="list-item d-inline-b"><a href="" class="d-flex-center">News</a></li>
+                            <li class="list-item d-inline-b"><a href="" class="d-flex-center">Projects</a></li>
+                            <li class="list-item d-inline-b"><a href="" class="d-flex-center">Contacts</a></li>
                         </ul>
                     </div>
                     <div class="join_us">

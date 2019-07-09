@@ -158,6 +158,15 @@ ul li a {
     height: fill-available;
 }
 
+.no-select {
+    -webkit-touch-callout: none; /* iOS Safari */
+    -webkit-user-select: none; /* Safari */
+    -khtml-user-select: none; /* Konqueror HTML */
+    -moz-user-select: none; /* Firefox */
+    -ms-user-select: none; /* Internet Explorer/Edge */
+    user-select: none;
+}
+
 /* /General*/
 
 /*Header*/
@@ -775,7 +784,10 @@ ul li a {
 }
 
 .r-carousel-box .item {
-    padding: 40px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    padding-right: 32px;
+    padding-left: 32px;
     margin: 25px;
     border-radius: 50%;
     width: auto !important;
