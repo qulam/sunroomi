@@ -33,7 +33,8 @@ $(document).ready(function () {
 
 
 /*Roof Types Carousel Center Mode With Zoom Effect*/
-$(document).ready(function(){
+
+$(document).ready(function () {
 
     $('.r-carousel')
         .on('init', () => {
@@ -92,19 +93,18 @@ $(document).ready(function(){
 
 
 /*Animated Scroll Down Custom Plugin*/
-(function($){
+(function ($) {
 
-    $.fn.Route = function(){
+    $.fn.Route = function () {
         var e = $(this);
         var id = e.attr('href');
         var routingE = $('#' + id);
         var routingEoffset = routingE.offset().top;
 
-        $("html, body").animate({ scrollTop: routingEoffset }, 1500);
+        $("html, body").animate({scrollTop: routingEoffset}, 1000);
     }
 
-
-    $(document).on('click', '.link-route', function(e){
+    $(document).on('click', '.link-route', function (e) {
         e.preventDefault();
         $(this).Route();
     });
