@@ -11,6 +11,7 @@
     <link rel="stylesheet" href="media/css/fonts.css">
     <link rel="stylesheet" href="media/css/all.min.css">
     <link rel="stylesheet" href="media/css/slick.css">
+    <link rel="stylesheet" href="media/css/owl-carousel.min.css">
     <link rel="stylesheet" href="media/css/style.css">
     <link rel="stylesheet" href="media/css/media.css">
     <!-- /Style-->
@@ -53,9 +54,9 @@
 <main role="main" class="main">
     <section class="main_top d-flex-center">
         <div class="solid-helper-container">
-            <div class="col-lg-2 solid-item"></div>
-            <div class="col-lg-3 solid-item"></div>
-            <div class="col-lg-3 solid-item"></div>
+            <div class="col-lg-2 col-md-2 solid-item"></div>
+            <div class="col-lg-3 col-md-3 solid-item"></div>
+            <div class="col-lg-3 col-md-3 solid-item"></div>
         </div>
         <div class="main_top__inner">
             <!--Mav-->
@@ -84,24 +85,24 @@
     <section style="border-bottom: solid 1px #a0c025">
         <div class="container benefits">
             <div class="row benefits_inner d-flex">
-                <div class="col-lg-2">
+                <div class="col-lg-2 col-md-2">
                     <h2 class="text-uppercase">Product benefits</h2>
                 </div>
-                <div class="col-lg-3 item">
+                <div class="col-lg-3 col-md-3 item">
                     <div class="item-helper">
                         <p>Terrace Roof offers protection from the sun
                             Just continue relaxing under your Terrace Roof
                             Your Terrace Roof is not affected by wind.</p>
                     </div>
                 </div>
-                <div class="col-lg-3 item un-bordered">
+                <div class="col-lg-3 col-md-3 item un-bordered">
                     <div class="item-helper">
                         <p>Terrace Roof offers protection from the sun
                             Just continue relaxing under your Terrace Roof
                             Your Terrace Roof is not affected by wind.</p>
                     </div>
                 </div>
-                <div class="col-lg-4 item d-flex-center un-bordered">
+                <div class="col-lg-4 col-md-4 item d-flex-center un-bordered">
                     <div class="benefits_more">
                         <h3>Lorem ipsum dolor sit</h3>
                         <h1 class="text-uppercase">Spring <br> is your friend</h1>
@@ -315,39 +316,41 @@
                 <h1 class="text-uppercase row">ROOF TYPES</h1>
             </div>
             <div class="r-carousel-box">
-                <span class="r-right  no-select">
+                <span class="r-right no-select">
                     <img src="./media/img/icons/right.png" alt="">
                 </span>
-                <span class="r-left  no-select">
+                <span class="r-left no-select">
                     <img src="./media/img/icons/left.png" alt="">
                 </span>
 
-                <ul class="r-carousel">
-                    <li class="item col-xs-3">
+                <ul class="r-carousel owl-carousel">
+                    <li class="item">
                         <img class="img-responsive" src="./media/img/roof-types/22-2.png" alt="">
                     </li>
-                    <li class="item col-xs-3">
+                    <li class="item">
                         <img class="img-responsive" src="./media/img/roof-types/22-4.png" alt="">
                     </li>
-                    <li class="item col-xs-3">
+                    <li class="item">
                         <img class="img-responsive" src="./media/img/roof-types/22.png" alt="">
                     </li>
-                    <li class="item col-xs-3">
+                    <li class="item">
                         <img class="img-responsive" src="./media/img/roof-types/22-3.png" alt="">
                     </li>
-                    <li class="item col-xs-3">
+                    <li class="item">
                         <img class="img-responsive" src="./media/img/roof-types/22-2.png" alt="">
                     </li>
-                    <li class="item col-xs-3">
+                    <li class="item">
                         <img class="img-responsive" src="./media/img/roof-types/22-4.png" alt="">
                     </li>
-                    <li class="item col-xs-3">
+                    <li class="item">
                         <img class="img-responsive" src="./media/img/roof-types/22.png" alt="">
                     </li>
-                    <li class="item col-xs-3">
+                    <li class="item">
                         <img class="img-responsive" src="./media/img/roof-types/22-3.png" alt="">
                     </li>
                 </ul>
+
+
             </div>
         </div>
     </section>
@@ -704,6 +707,7 @@
 <script src="media/js/bootstrap.min.js"></script>
 <script src="media/js/all.min.js"></script>
 <script src="media/js/slick.js"></script>
+<script src="media/js/owl-carousel.min.js"></script>
 <script src="media/js/main.js"></script>
 <!-- /Script files-->
 </body>

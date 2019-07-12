@@ -10,484 +10,212 @@
     <link rel="stylesheet" href="media/css/font-awesome.min.css">
     <link rel="stylesheet" href="media/css/fonts.css">
     <link rel="stylesheet" href="media/css/all.min.css">
-    <link rel="stylesheet" href="media/css/slick.css">
-    <link rel="stylesheet" href="media/css/style.css">
+    <!--    <link rel="stylesheet" href="media/css/slick.css">-->
+    <link rel="stylesheet" href="media/css/owl-carousel.min.css">
+    <!--    <link rel="stylesheet" href="media/css/style.css">-->
     <link rel="stylesheet" href="media/css/media.css">
-    <!-- /Style-->
     <title>Sunroomi</title>
+
+
+    <style>
+
+        .r-carousel-box {
+            position: relative;
+            width: 100%;
+            padding-top: 50px;
+            padding-bottom: 50px;
+        }
+
+        .r-carousel-box img {
+            display: block;
+            color: #fff;
+            font-size: 36px;
+            line-height: 100px;
+            position: relative;
+            text-align: center;
+            transform: translate(0, 0) scale(.4);
+            transition: all .4s ease;
+            opacity: .5;
+        }
+
+        .r-carousel-box .owl-item img {
+            transform: translate(0, 0) scale(.6);
+        }
+
+        .r-carousel-box .owl-item.active img {
+            opacity: .7;
+            transform: translate(5%, 0) scale(.8);
+        }
+
+        .r-carousel-box .owl-item.active img {
+            opacity: .7;
+            transform: translate(0%, 0) scale(.8);
+        }
+
+        .r-carousel-box .owl-item.active img {
+            transform: translate(0%, 0) scale(.6);
+        }
+
+        .r-carousel-box .owl-item.center li {
+            z-index: 1;
+            background-color: rgba(255, 255, 255, 0.1);
+            transform: scale(1.2);
+            opacity: 1;
+            color: #e67e22;
+            transition: all 0.2s linear;
+        }
+
+        .r-carousel-box .owl-item.center img {
+            z-index: 1;
+            opacity: 1;
+            color: #e67e22;
+        }
+
+        .r-carousel-box .slick-prev,
+        .r-carousel-box .slick-next {
+            position: absolute;
+            top: 50%;
+            appearance: none;
+            margin-top: -10px;
+            padding: 0;
+            border: 0;
+            background: none;
+            cursor: pointer;
+            color: transparent;
+            outline: none;
+            z-index: 100;
+        }
+
+        .r-carousel-box .slick-prev {
+            width: 0;
+            height: 0;
+            border-style: solid;
+            border-width: 15px 15px 15px 0;
+            left: 0;
+        }
+
+        .r-carousel-box .slick-next {
+            width: 0;
+            height: 0;
+            border-style: solid;
+            border-width: 15px 0 15px 15px;
+            right: 0;
+        }
+
+        .r-carousel-box .item {
+            padding-top: 40px;
+            padding-bottom: 40px;
+            padding-right: 32px;
+            padding-left: 32px;
+            margin: 25px;
+            border-radius: 50%;
+            width: auto !important;
+            border: solid 2px rgba(255, 255, 255, .2);
+        }
+
+        .r-carousel-box li {
+            list-style: none !important;
+            display: flex !important;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .r-carousel-box-header h1 {
+            font-size: 81px;
+            font-weight: bold;
+            text-align: right;
+            font-style: normal;
+            font-stretch: normal;
+            line-height: 1;
+            letter-spacing: 0.81px;
+            color: #ffffff;
+        }
+
+        .r-carousel-box-header h3 {
+            font-family: Dosis-Medium;
+            font-size: 31px;
+            text-align: right;
+            font-weight: 500;
+            font-style: normal;
+            font-stretch: normal;
+            line-height: 1.29;
+            letter-spacing: 0.31px;
+            color: #ffffff;
+        }
+
+        .r-carousel-box .r-left, .r-carousel-box .r-right {
+            position: absolute;
+            transform: translateY(-50%);
+            top: 50%;
+            width: 52px;
+            height: 52px;
+            border: 1px solid #fff;
+            z-index: 1000;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            cursor: pointer;
+        }
+
+        .r-carousel-box .r-left {
+            left: -40px
+        }
+
+        .r-carousel-box .r-right {
+            right: -40px;
+        }
+
+        .r-carousel-box .r-left:hover, .r-carousel-box .r-right:hover {
+            background-color: rgba(255, 255, 255, 0.2);
+            transition: all 0.3s ease-in-out;
+        }
+
+    </style>
+
 </head>
 <body>
-<!--Header-->
-<header class="header d-flex align-center justify-space-between">
-    <div class="left">
-        <ul class="d-flex-center">
-            <li class="d-inline-b"><a class="d-flex-center" href="">+1800 967 0991</a></li>
-            <li class="d-inline-b"><a class="d-flex-center" href="">
-                    <span class="icon-header">
-                        <img src="./media/img/logos/letter.png" alt="">
-                    </span>info@pergolaroof.com</a>
+<section class="mt--130" id="products">
+    <div class="roof-types" style="background-image: url('./media/img/roof-types/9.png')">
+        <div class="r-carousel-box-header">
+            <h3>Lorem ipsum dolor sit</h3>
+            <h1 class="text-uppercase row">ROOF TYPES</h1>
+        </div>
+        <ul class="r-carousel-box owl-carousel owl-theme roof-types"
+            style="background-image: url('./media/img/roof-types/9.png')">
+            <li class="item">
+                <img class="img-responsive" src="./media/img/roof-types/22-2.png" alt="">
             </li>
-            <li class="d-inline-b"><a class="d-flex-center" href="">
-                    <span class="icon-header">
-                        <img src="./media/img/logos/location.png" alt="">
-                    </span>A. 85 Broad st.,
-                    Suite 28-36, New York, NY 10004</a>
+            <li class="item">
+                <img class="img-responsive" src="./media/img/roof-types/22-2.png" alt="">
+            </li>
+            <li class="item">
+                <img class="img-responsive" src="./media/img/roof-types/22-2.png" alt="">
+            </li>
+            <li class="item">
+                <img class="img-responsive" src="./media/img/roof-types/22-2.png" alt="">
+            </li>
+            <li class="item">
+                <img class="img-responsive" src="./media/img/roof-types/22-2.png" alt="">
+            </li>
+            <li class="item">
+                <img class="img-responsive" src="./media/img/roof-types/22-2.png" alt="">
+            </li>
+            <li class="item">
+                <img class="img-responsive" src="./media/img/roof-types/22-2.png" alt="">
+            </li>
+            <li class="item">
+                <img class="img-responsive" src="./media/img/roof-types/22-2.png" alt="">
             </li>
         </ul>
     </div>
-    <div class="right">
-        <ul class="d-flex-center">
-            <li class="d-inline-b"><a class="d-flex-center" href=""><span><i class="fab fa-google-plus"></i></span></a>
-            </li>
-            <li class="d-inline-b"><a class="d-flex-center" href=""><span><i class="fab fa-instagram"></i></span></a>
-            </li>
-            <li class="d-inline-b"><a class="d-flex-center" href=""><span><i class="fab fa-youtube"></i></span></a></li>
-            <li class="d-inline-b"><a class="d-flex-center" href=""><span><i class="fab fa-facebook"></i></span></a>
-            </li>
-        </ul>
-    </div>
-</header>
-<!-- /Header-->
-
-<!--Top-->
-<main role="main" class="main">
-    <section class="main_top d-flex-center">
-        <div class="solid-helper-container">
-            <div class="col-lg-2 solid-item"></div>
-            <div class="col-lg-3 solid-item"></div>
-            <div class="col-lg-3 solid-item"></div>
-        </div>
-        <div class="main_top__inner">
-            <!--Mav-->
-            <nav class="site_nav d-flex align-center justify-space-between">
-                <div class="left">
-                    <a href="" class="d-flex-center">
-                        <img class="d-inline-b" src="./media/img/logos/logo-header-left.png" alt="">
-                        <h1 class="text-uppercase d-inline-b">SUNROOM</h1>
-                    </a>
-                </div>
-                <div class="right">
-                    <ul>
-                        <li class="d-inline-b"><a class="d-flex-center" href="">PRODUCTS</a></li>
-                        <li class="d-inline-b"><a class="d-flex-center" href="">GALLERY</a></li>
-                        <li class="d-inline-b"><a class="d-flex-center" href="">PROJECTS</a></li>
-                        <li class="d-inline-b"><a class="d-flex-center" href="">CONTACTS</a></li>
-                    </ul>
-                </div>
-            </nav>
-            <!-- /Mav-->
-        </div>
-    </section>
-    <!-- /Top-->
-
-    <!--Product Benefits-->
-    <section style="border-bottom: solid 1px #a0c025">
-        <div class="container benefits">
-            <div class="row benefits_inner d-flex">
-                <div class="col-lg-2">
-                    <h2 class="text-uppercase">Product benefits</h2>
-                </div>
-                <div class="col-lg-3 item">
-                    <div class="item-helper">
-                        <p>Terrace Roof offers protection from the sun
-                            Just continue relaxing under your Terrace Roof
-                            Your Terrace Roof is not affected by wind.</p>
-                    </div>
-                </div>
-                <div class="col-lg-3 item un-bordered">
-                    <div class="item-helper">
-                        <p>Terrace Roof offers protection from the sun
-                            Just continue relaxing under your Terrace Roof
-                            Your Terrace Roof is not affected by wind.</p>
-                    </div>
-                </div>
-                <div class="col-lg-4 item d-flex-center un-bordered">
-                    <div class="benefits_more">
-                        <h3>Lorem ipsum dolor sit</h3>
-                        <h1 class="text-uppercase">Spring <br> is your friend</h1>
-                        <p>Lorem ipsum dolor sit amet consectetur adipiscing elit
-                            sed do eiusmod tempor incididunt ut labore et dolore.</p>
-                        <div class="button-group">
-                            <a href="" class="text-uppercase button-full">MORE INFO</a>
-                            <a href="" class="text-uppercase button-bordered">REQUEST QUOTE</a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-    <!-- /Product Benefits-->
-
-    <!--Gallery-->
-    <section>
-        <div class="container gallery">
-            <div class="gallery_header">
-                <h1 class="section-title">Extend your summer.</h1>
-                <h3 class="text-uppercase">With the SUNFLEX terrace roof SF 112 / SF 112 Plus and SF 152 / SF 152
-                    Plus</h3>
-                <p>A terrace in the garden doesn't just mean more living space, but also real outdoor space. In summer,
-                    life tends to move outdoors – the terrace is the place for eating, playing, and relaxing, as long as
-                    the
-                    weather permits.
-                    The SUNFLEX Terrace Roof allows you to enjoy the outdoor freedom even longer as it offers optimal
-                    protection from wind and bad weather. T</p>
-            </div>
-        </div>
-        <div class="grid-fixed">
-            <div class="grid-fixed-left">
-                <div class="carousel-g-thumb-box">
-                    <div class="carousel-g-thumb">
-                        <div class="item" style="background-image: url('./media/img/gallery/thumb/14.png')">
-                        </div>
-                        <div class="item" style="background-image: url('./media/img/gallery/thumb/15.png')">
-                        </div>
-                        <div class="item" style="background-image: url('./media/img/gallery/thumb/14.png')">
-                        </div>
-                        <div class="item" style="background-image: url('./media/img/gallery/thumb/15.png')">
-                        </div>
-                    </div>
-                </div>
-                <div class="carousel-g-thumb-buttons">
-                    <span class="g-right">
-                        <img src="./media/img/icons/right.png" alt="">
-                    </span>
-                    <span class="g-left">
-                          <img src="./media/img/icons/left.png" alt="">
-                    </span>
-                </div>
-            </div>
-            <div class="grid-fixed-right">
-                <div class="g-header">
-                    <h3>PHOTO & VIDEO <br> GALLERY</h3>
-                </div>
-                <div class="carousel-g-box">
-                    <div class="carousel-g">
-                        <div class="item" style="background-image: url('./media/img/gallery/base/16.png')">
-                        </div>
-                        <div class="item" style="background-image: url('./media/img/gallery/base/16.png')">
-                        </div>
-                        <div class="item" style="background-image: url('./media/img/gallery/base/16.png')">
-                        </div>
-                        <div class="item" style="background-image: url('./media/img/gallery/base/16.png')">
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-    <!-- /Gallery-->
-
-    <!--Well Protected-->
-    <section>
-        <div class="protected container">
-            <div class="pro_header">
-                <h3 class="text-uppercase">Product benefits</h3>
-                <h1 class="section-title">Well-protected at all times.</h1>
-            </div>
-            <div class="pro-body">
-                <ul class="pro-list row">
-
-                    <li class="list-item col-lg-4">
-                        <div class="item-helper">
-                            <h3>All seasons</h3>
-                            <p>
-                                A terrace in the garden doesn't just mean more
-                                living space, but also real outdoor space,
-                                in the garden doesn't just mean more
-                                living space, but also real outdoor space
-                            </p>
-                            <div class="more-contain">
-                                <a href="">learn more</a>
-                            </div>
-                        </div>
-                    </li>
-
-                    <li class="list-item col-lg-4">
-                        <div class="item-helper">
-                            <h3>Dimable lights</h3>
-                            <p>
-                                A terrace in the garden doesn't just mean more
-                                living space, but also real outdoor space,
-                                in the garden doesn't just mean more
-                                living space, but also real outdoor space
-                            </p>
-                            <div class="more-contain">
-                                <a href="">learn more</a>
-                            </div>
-                        </div>
-                    </li>
-
-                    <li class="list-item col-lg-4">
-                        <div class="item-helper">
-                            <h3>Resists bad weather</h3>
-                            <p>
-                                A terrace in the garden doesn't just mean more
-                                living space, but also real outdoor space,
-                                in the garden doesn't just mean more
-                                living space, but also real outdoor space
-                            </p>
-                            <div class="more-contain">
-                                <a href="">learn more</a>
-                            </div>
-                        </div>
-                    </li>
-
-                    <li class="list-item col-lg-4">
-                        <div class="item-helper">
-                            <h3>Combats UV Rays</h3>
-                            <p>
-                                A terrace in the garden doesn't just mean more
-                                living space, but also real outdoor space,
-                                in the garden doesn't just mean more
-                                living space, but also real outdoor space
-                            </p>
-                            <div class="more-contain">
-                                <a href="">learn more</a>
-                            </div>
-                        </div>
-                    </li>
-
-                    <li class="list-item col-lg-4">
-                        <div class="item-helper">
-                            <h3>COMBATS UV RAYS</h3>
-                            <p>
-                                A terrace in the garden doesn't just mean more
-                                living space, but also real outdoor space,
-                                in the garden doesn't just mean more
-                                living space, but also real outdoor space
-                            </p>
-                            <div class="more-contain">
-                                <a href="">learn more</a>
-                            </div>
-                        </div>
-                    </li>
-
-                    <li class="list-item col-lg-4">
-                        <div class="item-helper">
-                            <h3>Remote controlled</h3>
-                            <p>
-                                A terrace in the garden doesn't just mean more
-                                living space, but also real outdoor space,
-                                in the garden doesn't just mean more
-                                living space, but also real outdoor space
-                            </p>
-                            <div class="more-contain">
-                                <a href="">learn more</a>
-                            </div>
-                        </div>
-                    </li>
-
-                </ul>
-            </div>
-        </div>
-    </section>
-    <!-- /Well Protected-->
-
-    <!--Our Projects-->
-    <section>
-        <div class="projects d-flex-center">
-            <div class="center-title">
-                <h1 class="text-uppercase">OUR PROJECTS</h1>
-            </div>
-            <!--project items-->
-            <div class="projects_in">
-                <div class="item">
-                    <img src="./media/img/projets/24.png" alt="">
-                </div>
-                <div class="item">
-                    <img src="./media/img/projets/23.png" alt="">
-                </div>
-                <div class="item">
-                    <img src="./media/img/projets/22.png" alt="">
-                </div>
-                <div class="item">
-                    <img src="./media/img/projets/21.png" alt="">
-                </div>
-                <div class="item">
-                    <img src="./media/img/projets/20.png" alt="">
-                </div>
-                <div class="item">
-                    <img src="./media/img/projets/19.png" alt="">
-                </div>
-                <div class="item">
-                    <img src="./media/img/projets/18.png" alt="">
-                </div>
-                <div class="item">
-                    <img src="./media/img/projets/17.png" alt="">
-                </div>
-                <div class="item">
-                    <img src="./media/img/projets/17.png" alt="">
-                </div>
-                <div class="item">
-                    <img src="./media/img/projets/24.png" alt="">
-                </div>
-                <div class="item">
-                    <img src="./media/img/projets/23.png" alt="">
-                </div>
-                <div class="item">
-                    <img src="./media/img/projets/22.png" alt="">
-                </div>
-                <div class="item">
-                    <img src="./media/img/projets/21.png" alt="">
-                </div>
-                <div class="item">
-                    <img src="./media/img/projets/20.png" alt="">
-                </div>
-                <div class="item">
-                    <img src="./media/img/projets/19.png" alt="">
-                </div>
-                <div class="item">
-                    <img src="./media/img/projets/19.png" alt="">
-                </div>
-                <div class="item">
-                    <img src="./media/img/projets/18.png" alt="">
-                </div>
-                <div class="item">
-                    <img src="./media/img/projets/17.png" alt="">
-                </div>
-            </div>
-            <!-- /project items-->
-        </div>
-    </section>
-    <!-- /Our Projects-->
-
-    <!--Latest News-->
-    <section>
-        <div class="container news">
-            <div class="news_in">
-                <div class="news_in__header">
-                    <h1 class="text-uppercase">LATEST NEWS</h1>
-                </div>
-                <div class="news_in__body">
-                    <ul class="row news_list">
-
-                        <!--first item-->
-                        <li class="col-lg-4 list-item">
-                            <h3>17.01.2019</h3>
-                            <h3>First Class System</h3>
-                            <p>
-                                A terrace in the garden doesn't just mean more
-                                living space, but also real outdoor space,
-                                in the garden doesn't just mean more
-                                living space, but also real outdoor space
-                            </p>
-                            <div class="button-group">
-                                <a href="" class="text-uppercase button-full">MORE INFO</a>
-                            </div>
-                        </li>
-                        <!-- /first item-->
-
-                        <!--second item-->
-                        <li class="col-lg-4 list-item">
-                            <h3>17.01.2019</h3>
-                            <h3>Second Class System</h3>
-                            <p>
-                                A terrace in the garden doesn't just mean more
-                                living space, but also real outdoor space,
-                                in the garden doesn't just mean more
-                                living space, but also real outdoor space
-                            </p>
-                            <div class="button-group">
-                                <a href="" class="text-uppercase button-full">MORE INFO</a>
-                            </div>
-                        </li>
-                        <!-- /second item-->
-
-                        <!--third item-->
-                        <li class="col-lg-4 list-item">
-                            <h3>17.01.2019</h3>
-                            <h3>Third Class System</h3>
-                            <p>
-                                A terrace in the garden doesn't just mean more
-                                living space, but also real outdoor space,
-                                in the garden doesn't just mean more
-                                living space, but also real outdoor space
-                            </p>
-                            <div class="button-group">
-                                <a href="" class="text-uppercase button-full">MORE INFO</a>
-                            </div>
-                        </li>
-                        <!-- /third item-->
-                    </ul>
-                </div>
-            </div>
-        </div>
-    </section>
-    <!-- /Latest News-->
-</main>
-<!-- /Main-->
-
-<!--Footer-->
-<footer>
-    <div class="footer d-flex-center">
-        <div class="container">
-            <div class="row footer_inner">
-                <div class="logo">
-                    <a href="" class="d-flex-center">
-                        <img src="./media/img/logos/logo-footer.png" alt="" class="img-responsive d-inline-b">
-                        <h1 class="text-uppercase d-inline-b">SUNROOMI</h1>
-                    </a>
-                </div>
-                <div class="col-lg-3 left">
-                    <p>
-                        A terrace in the garden doesn't just mean more  living space, but also real  outdoor space,
-                        in the garden doesn't just mean more  living space, but also real  outdoor space
-                    </p>
-                    <p>
-                        <span>COPYRIGHT © 2018</span>
-                        Sunrooms Sunrooms
-                        All Rights Reserved
-                    </p>
-                </div>
-                <div class="col-lg-4 col-lg-offset-1 center">
-                    <div class="footer_link">
-                        <ul class="link-items">
-                            <li class="list-item d-inline-b"><a href="" class="d-flex-center">Home</a></li>
-                            <li class="list-item d-inline-b"><a href="" class="d-flex-center">Products</a></li>
-                            <li class="list-item d-inline-b"><a href="" class="d-flex-center">Gallery</a></li>
-                            <li class="list-item d-inline-b"><a href="" class="d-flex-center">News</a></li>
-                            <li class="list-item d-inline-b"><a href="" class="d-flex-center">Projects</a></li>
-                            <li class="list-item d-inline-b"><a href="" class="d-flex-center">Contacts</a></li>
-                        </ul>
-                    </div>
-                    <div class="join_us">
-                        <h3 class="text-uppercase">JOIN US</h3>
-                        <ul class="social">
-                            <li class="d-inline-b"><a class="d-flex-center" href=""><span><i class="fab fa-google-plus"></i></span></a>
-                            </li>
-                            <li class="d-inline-b"><a class="d-flex-center" href=""><span><i class="fab fa-instagram"></i></span></a>
-                            </li>
-                            <li class="d-inline-b"><a class="d-flex-center" href=""><span><i class="fab fa-youtube"></i></span></a></li>
-                            <li class="d-inline-b"><a class="d-flex-center" href=""><span><i class="fab fa-facebook"></i></span></a>
-                            <li class="d-inline-b"><a class="d-flex-center" href=""><span><i class="fab fa-twitter"></i></span></a>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-lg-offset-1 subscribe">
-                    <h3>SUBSCRIBE TO NEWSLETTERS</h3>
-                    <div class="input-button">
-                        <input type="email" name="email" placeholder="email"/>
-                        <input type="submit" id="btn_submit" value="OK"/>
-                    </div>
-                    <div class="content">
-                        <p><span>Address:</span><br>85 BROAD ST, SUITE 28-36, NEW YORK, NY 10004</p>
-                        <p><span>E-mail:</span><a href=""> info@sunroomi.com</a></p>
-                        <p class="m-0"><span>Phone:</span> +(800) 967-0991</p>
-                        <p>+(800) 967-0992</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</footer>
-<!-- /Footer-->
+</section>
 
 <!--Script files-->
 <script src="media/js/jquery.min.js"></script>
 <script src="media/js/bootstrap.min.js"></script>
 <script src="media/js/all.min.js"></script>
 <script src="media/js/slick.js"></script>
+<script src="media/js/owl-carousel.min.js"></script>
 <script src="media/js/main.js"></script>
 <!-- /Script files-->
 </body>
