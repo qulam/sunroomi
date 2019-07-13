@@ -37,12 +37,15 @@ $(document).ready(function () {
 
     owl.owlCarousel({
         center: true,
-        items:3,
+        items:1,
         dots: false,
         nav: false,
         loop:true,
         autoplay: false,
         responsive:{
+            1200: {
+              items: 3
+            },
             1400:{
                 items:5
             },

@@ -406,7 +406,7 @@
             <div class="pro-body">
                 <ul class="pro-list row">
 
-                    <li class="list-item col-lg-4">
+                    <li class="list-item col-lg-4 col-md-6">
                         <div class="item-helper">
                             <h3>All seasons</h3>
                             <p>
@@ -421,7 +421,7 @@
                         </div>
                     </li>
 
-                    <li class="list-item col-lg-4">
+                    <li class="list-item col-lg-4 col-md-6">
                         <div class="item-helper">
                             <h3>Dimable lights</h3>
                             <p>
@@ -436,7 +436,7 @@
                         </div>
                     </li>
 
-                    <li class="list-item col-lg-4">
+                    <li class="list-item col-lg-4 col-md-6">
                         <div class="item-helper">
                             <h3>Resists bad weather</h3>
                             <p>
@@ -451,7 +451,7 @@
                         </div>
                     </li>
 
-                    <li class="list-item col-lg-4">
+                    <li class="list-item col-lg-4 col-md-6">
                         <div class="item-helper">
                             <h3>Combats UV Rays</h3>
                             <p>
@@ -466,7 +466,7 @@
                         </div>
                     </li>
 
-                    <li class="list-item col-lg-4">
+                    <li class="list-item col-lg-4 col-md-6">
                         <div class="item-helper">
                             <h3>COMBATS UV RAYS</h3>
                             <p>
@@ -481,7 +481,7 @@
                         </div>
                     </li>
 
-                    <li class="list-item col-lg-4">
+                    <li class="list-item col-lg-4 col-md-6">
                         <div class="item-helper">
                             <h3>Remote controlled</h3>
                             <p>
@@ -581,7 +581,7 @@
                     <ul class="row news_list">
 
                         <!--first item-->
-                        <li class="col-lg-4 list-item">
+                        <li class="col-lg-4 col-md-4 list-item">
                             <h3>17.01.2019</h3>
                             <h3>First Class System</h3>
                             <p>
@@ -597,7 +597,7 @@
                         <!-- /first item-->
 
                         <!--second item-->
-                        <li class="col-lg-4 list-item">
+                        <li class="col-lg-4 col-md-4 list-item">
                             <h3>17.01.2019</h3>
                             <h3>Second Class System</h3>
                             <p>
@@ -613,7 +613,7 @@
                         <!-- /second item-->
 
                         <!--third item-->
-                        <li class="col-lg-4 list-item">
+                        <li class="col-lg-4 col-md-4 list-item">
                             <h3>17.01.2019</h3>
                             <h3>Third Class System</h3>
                             <p>
@@ -647,7 +647,7 @@
                         <h1 class="text-uppercase d-inline-b">SUNROOMI</h1>
                     </a>
                 </div>
-                <div class="col-lg-3 left">
+                <div class="col-lg-3 col-md-6 left">
                     <p>
                         A terrace in the garden doesn't just mean more  living space, but also real  outdoor space,
                         in the garden doesn't just mean more  living space, but also real  outdoor space
@@ -658,7 +658,7 @@
                         All Rights Reserved
                     </p>
                 </div>
-                <div class="col-lg-4 col-lg-offset-1 center">
+                <div class="col-lg-4 col-md-6 col-lg-offset-1 center">
                     <div class="footer_link">
                         <ul class="link-items">
                             <li class="list-item d-inline-b"><a href="home" class="d-flex-center link-route">Home</a></li>
@@ -683,7 +683,7 @@
                         </ul>
                     </div>
                 </div>
-                <div class="col-lg-3 col-lg-offset-1 subscribe">
+                <div class="col-lg-3 col-md-12 col-lg-offset-1 subscribe">
                     <h3>SUBSCRIBE TO NEWSLETTERS</h3>
                     <div class="input-button">
                         <input type="email" name="email" placeholder="email"/>
