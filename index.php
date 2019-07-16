@@ -6,7 +6,7 @@
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <!--Style-->
-    <link rel="stylesheet" href="media/css/bootstrap.min.css">
+    <link rel="stylesheet" href="media/css/bootstrap.min.css"> <!--Bootstrap 3-->
     <link rel="stylesheet" href="media/css/font-awesome.min.css">
     <link rel="stylesheet" href="media/css/fonts.css">
     <link rel="stylesheet" href="media/css/all.min.css">
@@ -54,9 +54,9 @@
 <main role="main" class="main">
     <section class="main_top d-flex-center">
         <div class="solid-helper-container">
-            <div class="col-lg-2 col-md-2 solid-item"></div>
-            <div class="col-lg-3 col-md-3 solid-item"></div>
-            <div class="col-lg-3 col-md-3 solid-item"></div>
+            <div class="col-lg-2 col-md-2 col-sm-4 solid-item"></div>
+            <div class="col-lg-3 col-md-3 col-sm-4 solid-item"></div>
+            <div class="col-lg-3 col-md-3 col-sm-4 solid-item"></div>
         </div>
         <div class="main_top__inner">
             <!--Mav-->
@@ -82,20 +82,20 @@
     <!-- /Top-->
 
     <!--Product Benefits-->
-    <section style="border-bottom: solid 1px #a0c025">
+    <section class="bb-1">
         <div class="container benefits">
             <div class="row benefits_inner d-flex">
-                <div class="col-lg-2 col-md-2">
+                <div class="col-lg-2 col-md-2 col-sm-12">
                     <h2 class="text-uppercase">Product benefits</h2>
                 </div>
-                <div class="col-lg-3 col-md-3 item">
+                <div class="col-lg-3 col-md-3 col-sm-6 item">
                     <div class="item-helper">
                         <p>Terrace Roof offers protection from the sun
                             Just continue relaxing under your Terrace Roof
                             Your Terrace Roof is not affected by wind.</p>
                     </div>
                 </div>
-                <div class="col-lg-3 col-md-3 item un-bordered">
+                <div class="col-lg-3 col-md-3 col-sm-6 item un-bordered">
                     <div class="item-helper">
                         <p>Terrace Roof offers protection from the sun
                             Just continue relaxing under your Terrace Roof
@@ -194,11 +194,11 @@
                     <!-- /This Header Has Only Inside First Item-->
                     <div class="item_inner">
                         <div class="item__content row">
-                            <div class="col-lg-3 left">
+                            <div class="col-lg-3 col-md-12 col-sm-6 left">
                                 <h1 class="section-title">SF 112</h1>
                                 <span>SERIES</span>
                             </div>
-                            <div class="col-lg-8 col-lg-offset-1 right">
+                            <div class="col-lg-8 col-md-12 col-sm-6 col-sm-offset-0 col-lg-offset-1 right">
                                 <ul>
                                     <li>aluminium construction</li>
                                     <li>rafter height 112 mm</li>
@@ -222,11 +222,11 @@
                 <div class="col-lg-6 shape_item">
                     <div class="item_inner">
                         <div class="item__content row">
-                            <div class="col-lg-3 left">
+                            <div class="col-lg-3 col-md-12 col-sm-6 left">
                                 <h1 class="section-title">SF 112</h1>
                                 <span>SERIES</span>
                             </div>
-                            <div class="col-lg-8 col-lg-offset-1 right">
+                            <div class="col-lg-8 col-md-12 col-sm-6 col-sm-offset-0 col-lg-offset-1 right">
                                 <ul>
                                     <li>aluminium construction</li>
                                     <li>rafter height 112 mm</li>
@@ -250,11 +250,11 @@
                 <div class="col-lg-6 shape_item">
                     <div class="item_inner">
                         <div class="item__content row">
-                            <div class="col-lg-3 left">
+                            <div class="col-lg-3 col-md-12 col-sm-6 left">
                                 <h1 class="section-title">SF 112</h1>
                                 <span>SERIES</span>
                             </div>
-                            <div class="col-lg-8 col-lg-offset-1 right">
+                            <div class="col-lg-8 col-md-12 col-sm-6 col-sm-offset-0 col-lg-offset-1 right">
                                 <ul>
                                     <li>aluminium construction</li>
                                     <li>rafter height 112 mm</li>
@@ -279,11 +279,11 @@
                 <div class="col-lg-6 shape_item">
                     <div class="item_inner">
                         <div class="item__content row">
-                            <div class="col-lg-3 left">
+                            <div class="col-lg-3 col-md-12 col-sm-6 left">
                                 <h1 class="section-title">SF 112</h1>
                                 <span>SERIES</span>
                             </div>
-                            <div class="col-lg-8 col-lg-offset-1 right">
+                            <div class="col-lg-8 col-md-12 col-sm-6 col-sm-offset-0 col-lg-offset-1 right">
                                 <ul>
                                     <li>aluminium construction</li>
                                     <li>rafter height 112 mm</li>
@@ -406,7 +406,7 @@
             <div class="pro-body">
                 <ul class="pro-list row">
 
-                    <li class="list-item col-lg-4 col-md-6">
+                    <li class="list-item col-lg-4 col-md-6 col-sm-6">
                         <div class="item-helper">
                             <h3>All seasons</h3>
                             <p>
@@ -421,7 +421,7 @@
                         </div>
                     </li>
 
-                    <li class="list-item col-lg-4 col-md-6">
+                    <li class="list-item col-lg-4 col-md-6 col-sm-6">
                         <div class="item-helper">
                             <h3>Dimable lights</h3>
                             <p>
@@ -436,7 +436,7 @@
                         </div>
                     </li>
 
-                    <li class="list-item col-lg-4 col-md-6">
+                    <li class="list-item col-lg-4 col-md-6 col-sm-6">
                         <div class="item-helper">
                             <h3>Resists bad weather</h3>
                             <p>
@@ -451,7 +451,7 @@
                         </div>
                     </li>
 
-                    <li class="list-item col-lg-4 col-md-6">
+                    <li class="list-item col-lg-4 col-md-6 col-sm-6">
                         <div class="item-helper">
                             <h3>Combats UV Rays</h3>
                             <p>
@@ -466,7 +466,7 @@
                         </div>
                     </li>
 
-                    <li class="list-item col-lg-4 col-md-6">
+                    <li class="list-item col-lg-4 col-md-6 col-sm-6">
                         <div class="item-helper">
                             <h3>COMBATS UV RAYS</h3>
                             <p>
@@ -481,7 +481,7 @@
                         </div>
                     </li>
 
-                    <li class="list-item col-lg-4 col-md-6">
+                    <li class="list-item col-lg-4 col-md-6 col-sm-6">
                         <div class="item-helper">
                             <h3>Remote controlled</h3>
                             <p>

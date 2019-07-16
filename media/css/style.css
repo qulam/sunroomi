@@ -167,6 +167,10 @@ ul li a {
     user-select: none;
 }
 
+.bb-1 {
+    border-bottom: solid 1px #a0c025
+}
+
 /* /General*/
 
 /*Header*/
@@ -408,6 +412,10 @@ ul li a {
 .gallery {
     margin-top: 60px;
     margin-bottom: 150px;
+}
+
+.main.not-home #gallery {
+    margin-top: -40%;
 }
 
 .gallery_header {
