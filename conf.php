@@ -48,6 +48,12 @@
             </li>
         </ul>
     </div>
+
+    <!--back to top button-->
+    <span id="btt">
+        <i class="fa fa-angle-up"></i>
+    </span>
+    <!-- /back to top button-->
 </header>
 <!-- /Header-->
 
@@ -97,12 +103,15 @@
             <div class="conf_body">
                 <!--General tabs-->
                 <ul class="conf_tabs">
-                    <li class="tabs__item"><a class="" href="#style">FASONU</a></li>
-                    <li class="tabs__item"><a class="active" href="#bottom">ALTI</a></li>
+                    <li class="tabs__item active"><a class="" href="#style">FASONU</a></li>
+                    <li class="tabs__item"><a href="#bottom">ALTI</a></li>
                     <li class="tabs__item"><a class="" href="#color">RƏNGİ</a></li>
+                    <!--You may be add new tab item and div-depended item ..-->
                 </ul>
                 <!-- /General tabs-->
-                <div class="div-depended">
+
+                <!--FASONU-->
+                <div class="div-depended active" data-href="style">
                     <!--Configuration box-->
                     <div class="conf_box">
                         <div class="conf_box__left">
@@ -157,14 +166,14 @@
                                                 <td>Şüşə</td>
                                                 <td>
                                                     <div class="csm-input-group">
-                                                        <input id="sade" type="checkbox" name="sade">
-                                                        <label for="sade"><i class="fa fa-check"
-                                                                             aria-hidden="true"></i></label><span>Sadə</span>
+                                                        <input id="sade_style" type="checkbox" name="sade">
+                                                        <label for="sade_style"><i class="fa fa-check"
+                                                                                   aria-hidden="true"></i></label><span>Sadə</span>
                                                     </div>
                                                     <div class="csm-input-group">
-                                                        <input id="paket" type="checkbox" name="paket">
-                                                        <label for="paket"><i class="fa fa-check"
-                                                                              aria-hidden="true"></i></label><span>Paket</span>
+                                                        <input id="paket_style" type="checkbox" name="paket">
+                                                        <label for="paket_style"><i class="fa fa-check"
+                                                                                    aria-hidden="true"></i></label><span>Paket</span>
                                                     </div>
                                                 </td>
                                             </tr>
@@ -172,14 +181,14 @@
                                                 <td>Polikarbonat</td>
                                                 <td>
                                                     <div class="csm-input-group">
-                                                        <input id="mat" type="checkbox" name="mat">
-                                                        <label for="mat"><i class="fa fa-check"
-                                                                            aria-hidden="true"></i></label><span>Mat</span>
+                                                        <input id="mat_style" type="checkbox" name="mat">
+                                                        <label for="mat_style"><i class="fa fa-check"
+                                                                                  aria-hidden="true"></i></label><span>Mat</span>
                                                     </div>
                                                     <div class="csm-input-group">
-                                                        <input id="şəffaf" type="checkbox" name="şəffaf">
-                                                        <label for="şəffaf"><i class="fa fa-check"
-                                                                               aria-hidden="true"></i></label><span>Şəffaf</span>
+                                                        <input id="şəffaf_style" type="checkbox" name="şəffaf">
+                                                        <label for="şəffaf_style"><i class="fa fa-check"
+                                                                                     aria-hidden="true"></i></label><span>Şəffaf</span>
                                                     </div>
                                                 </td>
                                             </tr>
@@ -191,8 +200,136 @@
                             </div>
                         </div>
                         <div class="conf_box__right">
-                            <div class="right_in">
-                                <img class="img-responsive" src="./media/img/conf/764.png" alt="">
+                            <div class="right_in preview" id="preview">
+                                <img class="img-responsive" src="" alt="">
+                            </div>
+                        </div>
+                    </div>
+                    <!-- /Configuration box-->
+
+                    <!--box-footer-->
+                    <div class="conf_box__footer">
+                        <!--Tabs for preview-->
+                        <ul class="preview-tabs">
+                            <li class="tab__item col-xs-2 active">
+                                <h1 class="prev-item" data-srclarge="./media/img/conf/thumb/thumb_1.png">
+                                    BİOCLİMATİC</h1>
+                            </li>
+                            <li class="tab__item col-xs-2">
+                                <h1 class="prev-item" data-srclarge="./media/img/conf/thumb/thumb_2.png">SADƏ</h1>
+                            </li>
+                            <li class="tab__item col-xs-2">
+                                <h1 class="prev-item" data-srclarge="./media/img/conf/thumb/thumb_3.png">KLASSİK</h1>
+                            </li>
+                            <li class="tab__item col-xs-2">
+                                <h1 class="prev-item" data-srclarge="./media/img/conf/thumb/thumb_4.png">MÜASİR</h1>
+                            </li>
+                        </ul>
+                        <!-- /Tabs for preview-->
+                        <ul class="button-group">
+                            <li><a href="" class="button-item">SİFARİŞ ET</a></li>
+                            <li><a href="" class="button-item">
+                                    Ayarlanmış modeli
+                                    PDF faylda yükləmək
+                                </a></li>
+                        </ul>
+                    </div>
+                    <!-- /box-footer-->
+                </div>
+                <!-- /FASONU-->
+
+                <!--ALTI-->
+                <div class="div-depended" data-href="bottom">
+                    <!--Configuration box-->
+                    <div class="conf_box">
+                        <div class="conf_box__left">
+                            <div class="left_in">
+                                <p>
+                                    Terrace Roof offers protection from the sun Just
+                                    continue relaxing under your Terrace Roof Your
+                                    Terrace Roof is not affected by wind.
+                                </p>
+                                <div class="tech no-select">
+                                    <!--Texniki ölçüləri-->
+                                    <div class="tech-item">
+                                        <h3 class="tech-header">Texniki ölçüləri</h3>
+                                        <table>
+                                            <tr>
+                                                <td>Məhsulun ümumi uzunluğu</td>
+                                                <td>4500mm</td>
+                                            </tr>
+                                            <tr>
+                                                <td>Məhsulun ümumi uzunluğu</td>
+                                                <td>4500mm</td>
+                                            </tr>
+                                            <tr>
+                                                <td>Məhsulun ümumi uzunluğu</td>
+                                                <td>4500mm</td>
+                                            </tr>
+                                        </table>
+                                    </div>
+                                    <!-- /Texniki ölçüləri-->
+
+                                    <!--Rəng və material-->
+                                    <div class="tech-item">
+                                        <h3 class="tech-header">Texniki ölçüləri</h3>
+                                        <table>
+                                            <tr>
+                                                <td>Rəng</td>
+                                                <td>4500 mm</td>
+                                            </tr>
+                                            <tr>
+                                                <td>Material</td>
+                                                <td>4500 mm</td>
+                                            </tr>
+                                        </table>
+                                    </div>
+                                    <!-- /Rəng və material-->
+
+                                    <!--Şüşə -->
+                                    <div class="tech-item">
+                                        <h3 class="tech-header">Texniki ölçüləri</h3>
+                                        <table>
+                                            <tr>
+                                                <td>Şüşə</td>
+                                                <td>
+                                                    <div class="csm-input-group">
+                                                        <input id="sade_bottom" type="checkbox" name="sade">
+                                                        <label for="sade_bottom"><i class="fa fa-check"
+                                                                                    aria-hidden="true"></i></label><span>Sadə</span>
+                                                    </div>
+                                                    <div class="csm-input-group">
+                                                        <input id="paket_bottom" type="checkbox" name="paket">
+                                                        <label for="paket_bottom"><i class="fa fa-check"
+                                                                                     aria-hidden="true"></i></label><span>Paket</span>
+                                                    </div>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td>Polikarbonat</td>
+                                                <td>
+                                                    <div class="csm-input-group">
+                                                        <input id="mat_bottom" type="checkbox" name="mat">
+                                                        <label for="mat_bottom"><i class="fa fa-check"
+                                                                                   aria-hidden="true"></i></label><span>Mat</span>
+                                                    </div>
+                                                    <div class="csm-input-group">
+                                                        <input id="şəffaf_bottom" type="checkbox" name="şəffaf">
+                                                        <label for="şəffaf_bottom"><i class="fa fa-check"
+                                                                                      aria-hidden="true"></i></label><span>Şəffaf</span>
+                                                    </div>
+                                                </td>
+                                            </tr>
+                                        </table>
+                                    </div>
+                                    <!-- /Şüşə -->
+
+                                </div>
+                            </div>
+                        </div>
+                        <div class="conf_box__right">
+                            <div class="right_in preview" id="preview">
+                                <img class="img-responsive" src="" alt="">
                             </div>
                         </div>
                     </div>
@@ -203,35 +340,43 @@
                         <!--Tabs for preview-->
                         <ul class="preview-tabs">
                             <li class="tab__item col-xs-2">
-                                <a href=""><img src="./media/img/conf/thumb/thumb_1.png" alt=""></a>
+                                <a href="" data-srclarge="./media/img/conf/thumb/thumb_1.png" class="prev-item"><img
+                                            src="./media/img/conf/thumb/thumb_1.png" alt=""></a>
                                 <h5>Alüminum </h5>
                             </li>
                             <li class="tab__item col-xs-2">
-                                <a href=""><img src="./media/img/conf/thumb/thumb_2.png" alt=""></a>
+                                <a href="" data-srclarge="./media/img/conf/thumb/thumb_2.png" class="prev-item"><img
+                                            src="./media/img/conf/thumb/thumb_2.png" alt=""></a>
                                 <h5>Alüminum </h5>
                             </li>
                             <li class="tab__item col-xs-2">
-                                <a href=""><img src="./media/img/conf/thumb/thumb_3.png" alt=""></a>
+                                <a href="" data-srclarge="./media/img/conf/thumb/thumb_3.png" class="prev-item"><img
+                                            src="./media/img/conf/thumb/thumb_3.png" alt=""></a>
                                 <h5>Alüminum </h5>
                             </li>
                             <li class="tab__item col-xs-2">
-                                <a href=""><img src="./media/img/conf/thumb/thumb_4.png" alt=""></a>
+                                <a href="" data-srclarge="./media/img/conf/thumb/thumb_4.png" class="prev-item"><img
+                                            src="./media/img/conf/thumb/thumb_4.png" alt=""></a>
                                 <h5>Alüminum </h5>
                             </li>
                             <li class="tab__item col-xs-2 active">
-                                <a href=""><img src="./media/img/conf/thumb/thumb_5.png" alt=""></a>
+                                <a href="" data-srclarge="./media/img/conf/thumb/thumb_5.png" class="prev-item"><img
+                                            src="./media/img/conf/thumb/thumb_5.png" alt=""></a>
                                 <h5>Alüminum </h5>
                             </li>
                             <li class="tab__item col-xs-2">
-                                <a href=""><img src="./media/img/conf/thumb/thumb_6.png" alt=""></a>
+                                <a href="" data-srclarge="./media/img/conf/thumb/thumb_6.png" class="prev-item"><img
+                                            src="./media/img/conf/thumb/thumb_6.png" alt=""></a>
                                 <h5>Alüminum </h5>
                             </li>
                             <li class="tab__item col-xs-2">
-                                <a href=""><img src="./media/img/conf/thumb/thumb_7.png" alt=""></a>
+                                <a href="" data-srclarge="./media/img/conf/thumb/thumb_7.png" class="prev-item"><img
+                                            src="./media/img/conf/thumb/thumb_7.png" alt=""></a>
                                 <h5>Alüminum </h5>
                             </li>
                             <li class="tab__item col-xs-2">
-                                <a href=""><img src="./media/img/conf/thumb/thumb_8.png" alt=""></a>
+                                <a href="" data-srclarge="./media/img/conf/thumb/thumb_8.png" class="prev-item"><img
+                                            src="./media/img/conf/thumb/thumb_8.png" alt=""></a>
                                 <h5>Alüminum </h5>
                             </li>
                         </ul>
@@ -246,6 +391,162 @@
                     </div>
                     <!-- /box-footer-->
                 </div>
+                <!-- /ALTI-->
+
+                <!--RENGI-->
+                <div class="div-depended" data-href="color">
+                    <!--Configuration box-->
+                    <div class="conf_box">
+                        <div class="conf_box__left">
+                            <div class="left_in">
+                                <p>
+                                    Terrace Roof offers protection from the sun Just
+                                    continue relaxing under your Terrace Roof Your
+                                    Terrace Roof is not affected by wind.
+                                </p>
+                                <div class="tech no-select">
+                                    <!--Texniki ölçüləri-->
+                                    <div class="tech-item">
+                                        <h3 class="tech-header">Texniki ölçüləri</h3>
+                                        <table>
+                                            <tr>
+                                                <td>Məhsulun ümumi uzunluğu</td>
+                                                <td>4500mm</td>
+                                            </tr>
+                                            <tr>
+                                                <td>Məhsulun ümumi uzunluğu</td>
+                                                <td>4500mm</td>
+                                            </tr>
+                                            <tr>
+                                                <td>Məhsulun ümumi uzunluğu</td>
+                                                <td>4500mm</td>
+                                            </tr>
+                                        </table>
+                                    </div>
+                                    <!-- /Texniki ölçüləri-->
+
+                                    <!--Rəng və material-->
+                                    <div class="tech-item">
+                                        <h3 class="tech-header">Texniki ölçüləri</h3>
+                                        <table>
+                                            <tr>
+                                                <td>Rəng</td>
+                                                <td>4500 mm</td>
+                                            </tr>
+                                            <tr>
+                                                <td>Material</td>
+                                                <td>4500 mm</td>
+                                            </tr>
+                                        </table>
+                                    </div>
+                                    <!-- /Rəng və material-->
+
+                                    <!--Şüşə -->
+                                    <div class="tech-item">
+                                        <h3 class="tech-header">Texniki ölçüləri</h3>
+                                        <table>
+                                            <tr>
+                                                <td>Şüşə</td>
+                                                <td>
+                                                    <div class="csm-input-group">
+                                                        <input id="sade_color" type="checkbox" name="sade">
+                                                        <label for="sade_color"><i class="fa fa-check"
+                                                                                   aria-hidden="true"></i></label><span>Sadə</span>
+                                                    </div>
+                                                    <div class="csm-input-group">
+                                                        <input id="paket_color" type="checkbox" name="paket">
+                                                        <label for="paket_color"><i class="fa fa-check"
+                                                                                    aria-hidden="true"></i></label><span>Paket</span>
+                                                    </div>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td>Polikarbonat</td>
+                                                <td>
+                                                    <div class="csm-input-group">
+                                                        <input id="mat_color" type="checkbox" name="mat">
+                                                        <label for="mat_color"><i class="fa fa-check"
+                                                                                  aria-hidden="true"></i></label><span>Mat</span>
+                                                    </div>
+                                                    <div class="csm-input-group">
+                                                        <input id="şəffaf_color" type="checkbox" name="şəffaf">
+                                                        <label for="şəffaf_color"><i class="fa fa-check"
+                                                                                     aria-hidden="true"></i></label><span>Şəffaf</span>
+                                                    </div>
+                                                </td>
+                                            </tr>
+                                        </table>
+                                    </div>
+                                    <!-- /Şüşə -->
+
+                                </div>
+                            </div>
+                        </div>
+                        <div class="conf_box__right">
+                            <div class="right_in preview" id="preview">
+                                <img class="img-responsive" src="" alt="">
+                            </div>
+                        </div>
+                    </div>
+                    <!-- /Configuration box-->
+
+                    <!--box-footer-->
+                    <div class="conf_box__footer">
+                        <!--Tabs for preview-->
+                        <ul class="preview-tabs">
+                            <li class="tab__item col-xs-2">
+                                <a href="" data-srclarge="./media/img/conf/thumb/thumb_1.png" class="prev-item"><img
+                                            src="./media/img/conf/thumb/thumb_1.png" alt=""></a>
+                                <h5>Alüminum </h5>
+                            </li>
+                            <li class="tab__item col-xs-2">
+                                <a href="" data-srclarge="./media/img/conf/thumb/thumb_2.png" class="prev-item"><img
+                                            src="./media/img/conf/thumb/thumb_2.png" alt=""></a>
+                                <h5>Alüminum </h5>
+                            </li>
+                            <li class="tab__item col-xs-2">
+                                <a href="" data-srclarge="./media/img/conf/thumb/thumb_3.png" class="prev-item"><img
+                                            src="./media/img/conf/thumb/thumb_3.png" alt=""></a>
+                                <h5>Alüminum </h5>
+                            </li>
+                            <li class="tab__item col-xs-2">
+                                <a href="" data-srclarge="./media/img/conf/thumb/thumb_4.png" class="prev-item"><img
+                                            src="./media/img/conf/thumb/thumb_4.png" alt=""></a>
+                                <h5>Alüminum </h5>
+                            </li>
+                            <li class="tab__item col-xs-2 active">
+                                <a href="" data-srclarge="./media/img/conf/thumb/thumb_5.png" class="prev-item"><img
+                                            src="./media/img/conf/thumb/thumb_5.png" alt=""></a>
+                                <h5>Alüminum </h5>
+                            </li>
+                            <li class="tab__item col-xs-2">
+                                <a href="" data-srclarge="./media/img/conf/thumb/thumb_6.png" class="prev-item"><img
+                                            src="./media/img/conf/thumb/thumb_6.png" alt=""></a>
+                                <h5>Alüminum </h5>
+                            </li>
+                            <li class="tab__item col-xs-2">
+                                <a href="" data-srclarge="./media/img/conf/thumb/thumb_7.png" class="prev-item"><img
+                                            src="./media/img/conf/thumb/thumb_7.png" alt=""></a>
+                                <h5>Alüminum </h5>
+                            </li>
+                            <li class="tab__item col-xs-2">
+                                <a href="" data-srclarge="./media/img/conf/thumb/thumb_8.png" class="prev-item"><img
+                                            src="./media/img/conf/thumb/thumb_8.png" alt=""></a>
+                                <h5>Alüminum </h5>
+                            </li>
+                        </ul>
+                        <!-- /Tabs for preview-->
+                        <ul class="button-group">
+                            <li><a href="" class="button-item">SİFARİŞ ET</a></li>
+                            <li><a href="" class="button-item">
+                                    Ayarlanmış modeli
+                                    PDF faylda yükləmək
+                                </a></li>
+                        </ul>
+                    </div>
+                    <!-- /box-footer-->
+                </div>
+                <!-- /RENGI-->
             </div>
             <!-- /Configuration body-->
         </div>

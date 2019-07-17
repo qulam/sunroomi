@@ -64,7 +64,13 @@
     background-color: #7ca953;
 }
 
-.conf_tabs li a.active {
+.tabs__item:hover a {
+    background-color: rgba(160, 210, 37, 1);
+    transition: all 0.5s cubic-bezier(1, 0, 0, 1);
+    /*transition: all 0.6s cubic-bezier(0.68, -0.55, 0.265, 1.55);*/
+}
+
+.conf_tabs li.active a {
     background-color: #a0c025;
 }
 
@@ -203,7 +209,7 @@
     padding-left: 15px;
 }
 
-.csm-input-group input[type=checkbox]:checked ~ label > svg {
+.div-depended.active .csm-input-group input[type=checkbox]:checked ~ label > svg {
     visibility: visible;
 }
 
@@ -220,12 +226,15 @@
     padding-top: 15px;
     padding-bottom: 15px;
 }
+
 .conf_box__footer ul li {
     list-style: none;
     display: inline-flex;
     flex-direction: column;
     flex: 1;
     padding: 10px;
+    justify-content: center;
+    align-items: center;
 }
 
 .conf_box__footer ul li a {
@@ -256,6 +265,51 @@
     letter-spacing: normal;
     text-align: center;
     color: #505050;
+}
+
+.preview-tabs .tab__item h1 {
+    font-family: Dosis-Bold;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    font-size: 28px;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: center;
+    color: #505050;
+    padding-top: 43px;
+    padding-bottom: 43px;
+    -webkit-touch-callout: none; /* iOS Safari */
+    -webkit-user-select: none; /* Safari */
+    -khtml-user-select: none; /* Konqueror HTML */
+    -moz-user-select: none; /* Firefox */
+    -ms-user-select: none; /* Internet Explorer/Edge */
+    user-select: none;
+    cursor: pointer;
+}
+
+.preview-tabs .tab__item:hover h1 {
+    background: rgba(255, 255, 255, 0.1);
+    box-shadow: 0 17px 50px 0 rgba(0,0,0,.19), 0 12px 15px 0 rgba(0,0,0,.24);
+    transition: all 0.5s cubic-bezier(1, 0, 0, 1);
+}
+
+.preview-tabs .tab__item:hover a {
+    background: rgba(196, 196, 196, 0.1);
+    transition: all 0.5s cubic-bezier(1, 0, 0, 1);
+}
+
+.preview-tabs .tab__item:hover h5{
+    font-weight: bold;
+}
+
+.preview-tabs .tab__item.active h1 {
+    background: #fff;
+    box-shadow: 0 17px 50px 0 rgba(0,0,0,.19), 0 12px 15px 0 rgba(0,0,0,.24);
 }
 
 .preview-tabs .tab__item.active a {
@@ -311,5 +365,12 @@
     border: none;
 }
 
+.div-depended {
+    display: none;
+}
+
+.div-depended.active {
+    display: block;
+}
 
 /* /Confugiration*/

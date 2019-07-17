@@ -47,6 +47,12 @@
             </li>
         </ul>
     </div>
+
+    <!--back to top button-->
+    <span id="btt">
+        <i class="fa fa-angle-up"></i>
+    </span>
+    <!-- /back to top button-->
 </header>
 <!-- /Header-->
 

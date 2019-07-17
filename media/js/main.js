@@ -37,26 +37,26 @@ $(document).ready(function () {
 
     owl.owlCarousel({
         center: true,
-        items:1,
+        items: 1,
         dots: false,
         nav: false,
-        loop:true,
+        loop: true,
         autoplay: false,
-        responsive:{
+        responsive: {
             1200: {
-              items: 3
+                items: 3
             },
-            1400:{
-                items:5
+            1400: {
+                items: 5
             },
 
         }
     });
 
-    $('.r-right').click(function() {
+    $('.r-right').click(function () {
         owl.trigger('next.owl.carousel');
     });
-    $('.r-left').click(function() {
+    $('.r-left').click(function () {
         owl.trigger('prev.owl.carousel');
     });
     // });
@@ -86,3 +86,36 @@ $(document).ready(function () {
 
 })(jQuery);
 /* /Animated Scroll Down Custom Plugin*/
+
+/*Back To Top Button*/
+$(document).ready(function () {
+    $(document).scroll(function () {
+        var heightForShow = $('#gallery').offset().top;
+        var documentScrollTop = $(document).scrollTop();
+        if (documentScrollTop > heightForShow) {
+            if (!$('#btt').hasClass('startBttAnim')) {
+                if ($('#btt').hasClass('stopBttAnim')) {
+                    $('#btt').removeClass('stopBttAnim')
+                }
+                $('#btt').addClass('startBttAnim');
+            }
+        } else {
+            if ($('#btt').hasClass('startBttAnim')) {
+                $('#btt').removeClass('startBttAnim');
+
+                if (!$('#btt').hasClass('stopBttAnim')) {
+                    $('#btt').addClass('stopBttAnim')
+                }
+            }
+        }
+
+    });
+
+    $('#btt').click(function () {
+        $("html, body").animate({scrollTop: 0}, 600);
+        return false;
+    });
+
+
+});
+/* /Back To Top Button*/
