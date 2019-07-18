@@ -5,6 +5,11 @@
     <meta name="viewport"
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <!-- Favicons -->
+    <link href="img/favicon.png" rel="icon">
+    <link href="img/apple-touch-icon.png" rel="apple-touch-icon">
+    <!-- /Favicons -->
+
     <!--Style-->
     <link rel="stylesheet" href="media/css/bootstrap.min.css"> <!--Bootstrap 3-->
     <link rel="stylesheet" href="media/css/font-awesome.min.css">
