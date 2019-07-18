@@ -69,7 +69,7 @@
             <!--Mav-->
             <nav class="site_nav d-flex align-center justify-space-between">
                 <div class="left">
-                    <a href="" class="d-flex-center">
+                    <a href="./index.php" class="d-flex-center">
                         <img class="d-inline-b" src="./media/img/logos/logo-header-left.png" alt="">
                         <h1 class="text-uppercase d-inline-b">SUNROOM</h1>
                     </a>
@@ -212,7 +212,7 @@
                         <!--Tabs for preview-->
                         <ul class="preview-tabs">
                             <li class="tab__item col-xs-2 active">
-                                <h1 class="prev-item" data-srclarge="./media/img/conf/thumb/thumb_1.png">
+                                <h1 class="prev-item" data-srclarge="./media/img/conf/764.png">
                                     BİOCLİMATİC</h1>
                             </li>
                             <li class="tab__item col-xs-2">
@@ -360,7 +360,7 @@
                                 <h5>Alüminum </h5>
                             </li>
                             <li class="tab__item col-xs-2 active">
-                                <a href="" data-srclarge="./media/img/conf/thumb/thumb_5.png" class="prev-item"><img
+                                <a href="" data-srclarge="./media/img/conf/764.png" class="prev-item"><img
                                             src="./media/img/conf/thumb/thumb_5.png" alt=""></a>
                                 <h5>Alüminum </h5>
                             </li>
@@ -515,7 +515,7 @@
                                 <h5>Alüminum </h5>
                             </li>
                             <li class="tab__item col-xs-2 active">
-                                <a href="" data-srclarge="./media/img/conf/thumb/thumb_5.png" class="prev-item"><img
+                                <a href="" data-srclarge="./media/img/conf/764.png" class="prev-item"><img
                                             src="./media/img/conf/thumb/thumb_5.png" alt=""></a>
                                 <h5>Alüminum </h5>
                             </li>

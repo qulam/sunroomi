@@ -116,6 +116,5 @@ $(document).ready(function () {
         return false;
     });
 
-
 });
 /* /Back To Top Button*/

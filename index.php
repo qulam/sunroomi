@@ -68,7 +68,7 @@
             <!--Mav-->
             <nav class="site_nav d-flex align-center justify-space-between">
                 <div class="left">
-                    <a href="" class="d-flex-center">
+                    <a href="./conf.php" class="d-flex-center">
                         <img class="d-inline-b" src="./media/img/logos/logo-header-left.png" alt="">
                         <h1 class="text-uppercase d-inline-b">SUNROOM</h1>
                     </a>
@@ -655,8 +655,8 @@
                 </div>
                 <div class="col-lg-3 col-md-6 left">
                     <p>
-                        A terrace in the garden doesn't just mean more  living space, but also real  outdoor space,
-                        in the garden doesn't just mean more  living space, but also real  outdoor space
+                        A terrace in the garden doesn't just mean more living space, but also real outdoor space,
+                        in the garden doesn't just mean more living space, but also real outdoor space
                     </p>
                     <p>
                         <span>COPYRIGHT © 2018</span>
@@ -667,23 +667,33 @@
                 <div class="col-lg-4 col-md-6 col-lg-offset-1 center">
                     <div class="footer_link">
                         <ul class="link-items">
-                            <li class="list-item d-inline-b"><a href="home" class="d-flex-center link-route">Home</a></li>
-                            <li class="list-item d-inline-b"><a href="products" class="d-flex-center link-route">Products</a></li>
-                            <li class="list-item d-inline-b"><a href="gallery" class="d-flex-center link-route">Gallery</a></li>
-                            <li class="list-item d-inline-b"><a href="news" class="d-flex-center link-route">News</a></li>
-                            <li class="list-item d-inline-b"><a href="projects" class="d-flex-center link-route">Projects</a></li>
-                            <li class="list-item d-inline-b"><a href="contacts" class="d-flex-center link-route">Contacts</a></li>
+                            <li class="list-item d-inline-b"><a href="home" class="d-flex-center link-route">Home</a>
+                            </li>
+                            <li class="list-item d-inline-b"><a href="products" class="d-flex-center link-route">Products</a>
+                            </li>
+                            <li class="list-item d-inline-b"><a href="gallery"
+                                                                class="d-flex-center link-route">Gallery</a></li>
+                            <li class="list-item d-inline-b"><a href="news" class="d-flex-center link-route">News</a>
+                            </li>
+                            <li class="list-item d-inline-b"><a href="projects" class="d-flex-center link-route">Projects</a>
+                            </li>
+                            <li class="list-item d-inline-b"><a href="contacts" class="d-flex-center link-route">Contacts</a>
+                            </li>
                         </ul>
                     </div>
                     <div class="join_us">
                         <h3 class="text-uppercase">JOIN US</h3>
                         <ul class="social">
-                            <li class="d-inline-b"><a class="d-flex-center" href=""><span><i class="fab fa-google-plus"></i></span></a>
+                            <li class="d-inline-b"><a class="d-flex-center" href=""><span><i
+                                                class="fab fa-google-plus"></i></span></a>
                             </li>
-                            <li class="d-inline-b"><a class="d-flex-center" href=""><span><i class="fab fa-instagram"></i></span></a>
+                            <li class="d-inline-b"><a class="d-flex-center" href=""><span><i
+                                                class="fab fa-instagram"></i></span></a>
                             </li>
-                            <li class="d-inline-b"><a class="d-flex-center" href=""><span><i class="fab fa-youtube"></i></span></a></li>
-                            <li class="d-inline-b"><a class="d-flex-center" href=""><span><i class="fab fa-facebook"></i></span></a>
+                            <li class="d-inline-b"><a class="d-flex-center" href=""><span><i class="fab fa-youtube"></i></span></a>
+                            </li>
+                            <li class="d-inline-b"><a class="d-flex-center" href=""><span><i
+                                                class="fab fa-facebook"></i></span></a>
                             <li class="d-inline-b"><a class="d-flex-center" href=""><span><i class="fab fa-twitter"></i></span></a>
                             </li>
                         </ul>
