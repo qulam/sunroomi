@@ -6,8 +6,8 @@
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <!-- Favicons -->
-    <link href="img/favicon.png" rel="icon">
-    <link href="img/apple-touch-icon.png" rel="apple-touch-icon">
+    <link href="./media/img/favicon.png" rel="icon">
+    <link href="./media/img/apple-touch-icon.png" rel="apple-touch-icon">
     <!-- /Favicons -->
 
     <!--Style-->
@@ -335,30 +335,56 @@
                 </span>
 
                 <ul class="r-carousel owl-carousel">
-                    <li class="item">
-                        <img class="img-responsive" src="./media/img/roof-types/22-2.png" alt="">
-                    </li>
-                    <li class="item">
-                        <img class="img-responsive" src="./media/img/roof-types/22-4.png" alt="">
-                    </li>
-                    <li class="item">
-                        <img class="img-responsive" src="./media/img/roof-types/22.png" alt="">
-                    </li>
-                    <li class="item">
-                        <img class="img-responsive" src="./media/img/roof-types/22-3.png" alt="">
-                    </li>
-                    <li class="item">
-                        <img class="img-responsive" src="./media/img/roof-types/22-2.png" alt="">
-                    </li>
-                    <li class="item">
-                        <img class="img-responsive" src="./media/img/roof-types/22-4.png" alt="">
-                    </li>
-                    <li class="item">
-                        <img class="img-responsive" src="./media/img/roof-types/22.png" alt="">
-                    </li>
-                    <li class="item">
-                        <img class="img-responsive" src="./media/img/roof-types/22-3.png" alt="">
-                    </li>
+                    <div class="additionally-div">
+                        <li class="item">
+                            <img class="img-responsive" src="./media/img/roof-types/22-2.png" alt="">
+                        </li>
+                        <a href="">SF 112 SERIES</a>
+                    </div>
+                    <div class="additionally-div">
+                        <li class="item">
+                            <img class="img-responsive" src="./media/img/roof-types/22-4.png" alt="">
+                        </li>
+                        <a href="">SF 112 SERIES</a>
+                    </div>
+                    <div class="additionally-div">
+                        <li class="item">
+                            <img class="img-responsive" src="./media/img/roof-types/22.png" alt="">
+                        </li>
+                        <a href="">SF 112 SERIES</a>
+                    </div>
+                    <div class="additionally-div">
+
+                        <li class="item">
+                            <img class="img-responsive" src="./media/img/roof-types/22-3.png" alt="">
+                        </li>
+                        <a href="">SF 112 SERIES</a>
+                    </div>
+                    <div class="additionally-div">
+                        <li class="item">
+                            <img class="img-responsive" src="./media/img/roof-types/22-2.png" alt="">
+                        </li>
+                        <a href="">SF 112 SERIES</a>
+                    </div>
+                    <div class="additionally-div">
+                        <li class="item">
+                            <img class="img-responsive" src="./media/img/roof-types/22-4.png" alt="">
+                        </li>
+                        <a href="">SF 112 SERIES</a>
+                    </div>
+                    <div class="additionally-div">
+
+                        <li class="item">
+                            <img class="img-responsive" src="./media/img/roof-types/22.png" alt="">
+                        </li>
+                        <a href="">SF 112 SERIES</a>
+                    </div>
+                    <div class="additionally-div">
+                        <li class="item">
+                            <img class="img-responsive" src="./media/img/roof-types/22-3.png" alt="">
+                        </li>
+                        <a href="">SF 112 SERIES</a>
+                    </div>
                 </ul>
 
 

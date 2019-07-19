@@ -11,12 +11,12 @@
         if (windowWidth <= size) {
             if (!e.hasClass('slick-slider')) {
                 e.slick(options);
-            }else{
+            } else {
                 e.slick('unslick');
                 e.slick(options);
             }
-        }else{
-            if(e.hasClass('slick-slider')){
+        } else {
+            if (e.hasClass('slick-slider')) {
                 e.slick('unslick');
             }
         }
@@ -36,7 +36,7 @@
     };
     /* /Set preview large image when document ready or window on load*/
 
-    /*Remove class 'active' and add class 'active' which it is event element*/
+    /*Remove class 'active' and (add class 'active' which it is event element)*/
     $.fn.activeIsOnlyOne = function () {
         var e = $(this);
         var parentContain = e.closest('ul');
@@ -94,20 +94,38 @@
 
     $(document).on('click', '.prev-item', function (e) {
         e.preventDefault();
-        /*Set preview image src attr from active thum image list item data('srclarge') (ONLY CLICK EVENT)*/
+        /*Set preview image src attr from active thumb image list item data('srclarge') (ONLY CLICK EVENT)*/
         $(this).changePreview('.preview');
     });
 
     /*ONLY DOCUMENT READY OR WINDOW ON LOAD*/
     $('.preview').setPreviewImage('.preview-tabs');
 
-    $(window).resize(function(){
+    $(window).resize(function () {
         $('.preview-tabs').addSlick(1800, {
             slidesToShow: 3,
             slidesToScroll: 1,
             arrows: false,
         });
     });
+
+    /*Preview Tabs Mutate to slick carousel when document ready*/
+    $('.preview-tabs').addSlick(1800, {
+        slidesToShow: 3,
+        slidesToScroll: 1,
+        arrows: false,
+    });
+    /* /Preview Tabs Mutate to slick carousel when document ready*/
+
+    /*Slick Slider For Preview Tabs item when them mutate slick carousel*/
+    $(document).on('click', '.btn-prev', function () {
+        $('.preview-tabs').slick('slickPrev');
+    });
+
+    $(document).on('click', '.btn-next', function () {
+        $('.preview-tabs').slick('slickNext');
+    });
+    /* /Slick Slider For Preview Tabs item when them mutate slick carousel*/
 
 })(jQuery);
 /* /Custom Plugin for Configuration Widget*/

@@ -6,8 +6,8 @@
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <!-- Favicons -->
-    <link href="img/favicon.png" rel="icon">
-    <link href="img/apple-touch-icon.png" rel="apple-touch-icon">
+    <link href="./media/img/favicon.png" rel="icon">
+    <link href="./media/img/apple-touch-icon.png" rel="apple-touch-icon">
     <!-- /Favicons -->
 
     <!--Style-->
@@ -20,6 +20,7 @@
     <link rel="stylesheet" href="media/css/style.css">
     <link rel="stylesheet" href="media/css/confugiration.css">
     <link rel="stylesheet" href="media/css/media.css">
+    <link rel="stylesheet" href="media/css/conf-media.css">
     <!-- /Style-->
     <title>Sunroomi</title>
 </head>
@@ -214,6 +215,13 @@
 
                     <!--box-footer-->
                     <div class="conf_box__footer">
+                        <!--Preview Tabs Slick Buttons-->
+                        <div class="preview-tabs-buttons">
+                            <span class="btn-prev"><i class="fa fa-angle-left"></i></span>
+                            <span class="btn-next"><i class="fa fa-angle-right"></i></span>
+                        </div>
+                        <!-- /Preview Tabs Slick Buttons-->
+
                         <!--Tabs for preview-->
                         <ul class="preview-tabs">
                             <li class="tab__item col-xs-2 active">
@@ -231,7 +239,7 @@
                             </li>
                         </ul>
                         <!-- /Tabs for preview-->
-                        <ul class="button-group">
+                        <ul class="button-group no-select">
                             <li><a href="" class="button-item">SİFARİŞ ET</a></li>
                             <li><a href="" class="button-item">
                                     Ayarlanmış modeli
@@ -342,6 +350,12 @@
 
                     <!--box-footer-->
                     <div class="conf_box__footer">
+                        <!--Preview Tabs Slick Buttons-->
+                        <div class="preview-tabs-buttons">
+                            <span class="btn-prev"><i class="fa fa-angle-left"></i></span>
+                            <span class="btn-next"><i class="fa fa-angle-right"></i></span>
+                        </div>
+                        <!-- /Preview Tabs Slick Buttons-->
                         <!--Tabs for preview-->
                         <ul class="preview-tabs">
                             <li class="tab__item col-xs-2">
@@ -497,6 +511,12 @@
 
                     <!--box-footer-->
                     <div class="conf_box__footer">
+                        <!--Preview Tabs Slick Buttons-->
+                        <div class="preview-tabs-buttons">
+                            <span class="btn-prev"><i class="fa fa-angle-left"></i></span>
+                            <span class="btn-next"><i class="fa fa-angle-right"></i></span>
+                        </div>
+                        <!-- /Preview Tabs Slick Buttons-->
                         <!--Tabs for preview-->
                         <ul class="preview-tabs">
                             <li class="tab__item col-xs-2">
@@ -541,7 +561,7 @@
                             </li>
                         </ul>
                         <!-- /Tabs for preview-->
-                        <ul class="button-group">
+                        <ul class="button-group no-select">
                             <li><a href="" class="button-item">SİFARİŞ ET</a></li>
                             <li><a href="" class="button-item">
                                     Ayarlanmış modeli

@@ -41,6 +41,7 @@ $(document).ready(function () {
         dots: false,
         nav: false,
         loop: true,
+        slideSpeed: 600,
         autoplay: false,
         responsive: {
             1200: {
