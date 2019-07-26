@@ -687,6 +687,10 @@ ul li a {
     display: flex;
 }
 
+.shape_item .item__picture img {
+    width: 100%;
+}
+
 .item__content .right ul {
     padding-top: 15px;
     padding-bottom: 15px;
