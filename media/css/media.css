@@ -1,5 +1,49 @@
 /*Media Queries*/
-@media only screen and (max-width: 1500px) and (max-width: 1700px) {
+@media only screen and (min-width: 2221px) and (max-width: 2680px) {
+    .roof-types .owl-stage-outer {
+        min-height: 550px;
+    }
+
+    .r-carousel-box .owl-item.center li {
+        -webkit-transform: scale(1.1);
+        -moz-transform: scale(1.1);
+        -ms-transform: scale(1.1);
+        -o-transform: scale(1.1);
+        transform: scale(1.1);
+    }
+
+    .grid-fixed {
+        height: 1220px;
+    }
+
+    .carousel-g-box {
+        min-height: calc(100% - 150px);
+    }
+}
+
+@media only screen and (min-width: 2050px) and (max-width: 2220px) {
+    .roof-types .owl-stage-outer {
+        min-height: 490px;
+    }
+
+    .roof-types {
+        padding-bottom: 140px;
+    }
+
+    .grid-fixed {
+        height: 1040px;
+    }
+
+}
+
+@media only screen and (max-width: 1600px) {
+
+    .roof-types .additionally-div a {
+        font-size: 20px;
+    }
+}
+
+@media only screen and (min-width: 1500px) and (max-width: 1700px) {
     .r-carousel-box .item {
         margin: 60px;
     }
@@ -276,7 +320,7 @@
     }
 
     .r-carousel-box .item {
-        margin: 150px;
+        margin: 70px;
     }
 
     .owl-item.center {
@@ -586,6 +630,10 @@
         height: 750px;
     }
 
+    .fixed-box-section {
+        height: 1300px;
+    }
+
     .fixed-box-left .content p {
         padding-top: 40px;
         padding-bottom: 20px;
@@ -655,6 +703,9 @@
         top: -50px;
     }
 
+    .protected {
+        margin-top: 60px
+    }
 
 }
 

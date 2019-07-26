@@ -263,10 +263,12 @@ ul li a {
 
 /*Header*/
 .header {
+    position: relative;
     padding-top: 30px;
     padding-right: 50px;
     padding-bottom: 30px;
     padding-left: 50px;
+    z-index: 999;
 }
 
 .header ul li {
@@ -329,6 +331,7 @@ ul li a {
     background-image: url("../img/main/1.png");
     background-size: cover;
     background-repeat: no-repeat;
+    /*z-index: -1;*/
 }
 
 .site_nav .left {
@@ -503,7 +506,7 @@ ul li a {
 }
 
 .main.not-home #gallery {
-    margin-top: -40%;
+    /*margin-top: -40%;*/
 }
 
 .gallery_header {
@@ -565,7 +568,7 @@ ul li a {
     display: flex;
     width: calc(100% - 145px);
     min-height: 100%;
-    transform: translateY(-220px);
+    transform: translateY(-230px);
 }
 
 .carousel-g {
@@ -786,11 +789,11 @@ ul li a {
     padding-left: 140px;
     padding-right: 140px;
     padding-bottom: 220px;
+    padding-top: 110px;
     width: 100%;
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    padding-top: 50px;
 }
 
 .roof-types .additionally-div a {
@@ -811,7 +814,13 @@ ul li a {
 }
 
 .roof-types .owl-stage-outer {
-    min-height: 390px;
+    display: flex;
+    align-items: center;
+    min-height: 490px;
+}
+
+.roof-types .owl-stage-outer .owl-stage {
+    display: flex;
 }
 
 

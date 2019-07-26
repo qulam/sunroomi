@@ -394,7 +394,7 @@
     <!-- /Roof Types-->
 
     <!--Details & Highlights & Accecories -->
-    <section class="section-full-height">
+    <section class="section-full-height fixed-box-section">
         <div class="fixed-box">
             <div class="fixed-box-left">
                 <div class="content">

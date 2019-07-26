@@ -44,6 +44,9 @@ $(document).ready(function () {
         slideSpeed: 600,
         autoplay: false,
         responsive: {
+            992: {
+                items: 3
+            },
             1200: {
                 items: 3
             },
@@ -69,7 +72,6 @@ $(document).ready(function () {
 
 /*Animated Scroll Down Custom Plugin*/
 (function ($) {
-
     $.fn.Route = function () {
         var e = $(this);
         var id = e.attr('href');
@@ -77,14 +79,12 @@ $(document).ready(function () {
         var routingEoffset = routingE.offset().top;
 
         $("html, body").animate({scrollTop: routingEoffset}, 1000);
-    }
+    };
 
     $(document).on('click', '.link-route', function (e) {
         e.preventDefault();
         $(this).Route();
     });
-
-
 })(jQuery);
 /* /Animated Scroll Down Custom Plugin*/
 
@@ -118,3 +118,63 @@ $(document).ready(function () {
 
 });
 /* /Back To Top Button*/
+
+
+/*Height Adjust function for adjust selector height scheduled selector*/
+/*
+*  option = {} is an object and it contain two property (handle and 'asWindow');
+*  Default option is asWindow. When selected asWindow value for selector height then selector height equal Window natural height;
+*  You can change selector height after selected asWindow as css calc() method.For this :
+*  For Example : {handle : {height : 'asWindow', negative: 100, }} => selectorHeight = windowHeight - 100px;
+*  negative and positive must be integer and great than zero ... (by Alisoy);
+* */
+(function ($) {
+    $.fn.heightAdjust = function (option = {}) {
+        /*define
+            properties*/
+        var e = $(this);
+        var o = option;
+        var defaultHeight = $(window).height();
+        var negH, posH, oH;
+        /* /define
+            properties*/
+
+        /*Conditional
+            Rules*/
+        negH = (o.handle.negative == undefined || isNaN(o.handle.negative) || o.handle.negative < 0) ? 0 : o.handle.negative;
+        posH = (o.handle.positive == undefined || isNaN(o.handle.positive) || o.handle.positive < 0) ? 0 : o.handle.positive;
+        oH = (o.handle.height == 'asWindow') ? defaultHeight - negH + posH : o.handle.height - negH + posH;
+        /* /Conditional
+            Rules*/
+
+        e.css({
+            'height': oH
+        });
+    };
+
+    /*Affected to selector with heightAdjust() method when DOM ready or window resize*/
+    /*DOM ready*/
+    $('.main_top').heightAdjust({
+        handle: {
+            height: 'asWindow',
+            negative: 150,
+            // positive:
+        }
+    });
+    /* /DOM ready*/
+
+    /*Window resize*/
+    $(window).resize(function () {
+        $('.main_top').heightAdjust({
+            handle: {
+                height: 'asWindow',
+                negative: 150,
+                // positive:
+            }
+        });
+    });
+    /* /Window resize*/
+    /* /Affected to selector with heightAdjust() method when DOM ready or window resize*/
+
+})(jQuery);
+/*Height Adjust function for adjust selector height scheduled selector*/
