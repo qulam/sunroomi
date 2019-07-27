@@ -130,6 +130,7 @@ $(document).ready(function () {
 * */
 (function ($) {
 
+    /*Custom heightAdjust() plugin*/
     $.fn.heightAdjust = function (option = {}) {
         var e = $(this);
         var createObj = {};
@@ -186,8 +187,6 @@ $(document).ready(function () {
                 properties*/
             deviceKey = __checkDevice(hObj);
 
-            console.log(o.handle[deviceKey]);
-
             /*Conditional
                 Rules*/
             negH = (o.handle[deviceKey].negative == undefined || isNaN(o.handle[deviceKey].negative) || o.handle[deviceKey].negative < 0) ? 0 : o.handle[deviceKey].negative;
@@ -210,6 +209,7 @@ $(document).ready(function () {
         __init(e);
 
     };
+    /* /Custom heightAdjust() plugin*/
 
     /*Affected to selector with heightAdjust() method when DOM ready or window resize*/
     /*DOM ready*/
