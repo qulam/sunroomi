@@ -94,7 +94,6 @@
     </section>
     <!-- /Top-->
 
-
     <!--Cofiguration widget-->
     <section class="ty-negative">
         <div class="container conf">

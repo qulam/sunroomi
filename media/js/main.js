@@ -125,55 +125,128 @@ $(document).ready(function () {
 *  option = {} is an object and it contain two property (handle and 'asWindow');
 *  Default option is asWindow. When selected asWindow value for selector height then selector height equal Window natural height;
 *  You can change selector height after selected asWindow as css calc() method.For this :
-*  For Example : {handle : {height : 'asWindow', negative: 100, }} => selectorHeight = windowHeight - 100px;
+*  For Example : {handle : {height : 'asWindow', negative: 100, }} => selectorHeight = windowHeight - 100px; || selectorHeight = windowHeight + positive;
 *  negative and positive must be integer and great than zero ... (by Alisoy);
 * */
 (function ($) {
+
     $.fn.heightAdjust = function (option = {}) {
-        /*define
-            properties*/
         var e = $(this);
-        var o = option;
-        var defaultHeight = $(window).height();
-        var negH, posH, oH;
-        /* /define
-            properties*/
+        var createObj = {};
+        var unAssignedArr = [];
+        var assignedArr = [];
+        var deviceKey;
 
-        /*Conditional
-            Rules*/
-        negH = (o.handle.negative == undefined || isNaN(o.handle.negative) || o.handle.negative < 0) ? 0 : o.handle.negative;
-        posH = (o.handle.positive == undefined || isNaN(o.handle.positive) || o.handle.positive < 0) ? 0 : o.handle.positive;
-        oH = (o.handle.height == 'asWindow') ? defaultHeight - negH + posH : o.handle.height - negH + posH;
-        /* /Conditional
-            Rules*/
+        /*Change Array elements by index*/
+        __changeIndex = (Arr, index_1, index_2) => {
+            var lastAttr = Arr[index_1];
+            Arr[index_1] = Arr[index_2];
+            Arr[index_2] = lastAttr;
 
-        e.css({
-            'height': oH
+            return Arr;
+        };
+
+        /*Array elements assigned*/
+        __arrAssign = (Arr) => Arr.sort(function (a, b) {
+            return a - b
         });
+
+        /*Check current device*/
+        __checkDevice = (optionObj = {}) => {
+            var wW = $(window).width();
+            var iter = 0;
+            $.each(optionObj, (index, item) => {
+                unAssignedArr[iter] = index;
+                iter++;
+            });
+
+            assignedArr = __arrAssign(unAssignedArr);
+
+            $.each(assignedArr, (index, item) => {
+                if (wW < item) {
+                    deviceKey = item;
+                    return false;
+                }
+            });
+
+            return deviceKey;
+        };
+        /*Check Device*/
+
+        /*Initialize*/
+        __init = (e) => {
+
+            /*define
+           properties*/
+            var o = option;
+            var hObj = o.handle;
+            var defaultHeight = $(window).height();
+            var negH, posH, oH;
+            /* /define
+                properties*/
+            deviceKey = __checkDevice(hObj);
+
+            console.log(o.handle[deviceKey]);
+
+            /*Conditional
+                Rules*/
+            negH = (o.handle[deviceKey].negative == undefined || isNaN(o.handle[deviceKey].negative) || o.handle[deviceKey].negative < 0) ? 0 : o.handle[deviceKey].negative;
+            posH = (o.handle[deviceKey].positive == undefined || isNaN(o.handle[deviceKey].positive) || o.handle[deviceKey].positive < 0) ? 0 : o.handle[deviceKey].positive;
+            oH = (o.handle[deviceKey].height == 'asWindow') ? defaultHeight - negH + posH : o.handle[deviceKey].height - negH + posH;
+            /* /Conditional
+                Rules*/
+
+            e.css({
+                'height': oH,
+            });
+        };
+        /* /Initialize*/
+
+        window.addEventListener('resize', function () {
+            __init(e);
+            return false;
+        }, true);
+
+        __init(e);
+
     };
 
     /*Affected to selector with heightAdjust() method when DOM ready or window resize*/
     /*DOM ready*/
     $('.main_top').heightAdjust({
         handle: {
-            height: 'asWindow',
-            negative: 150,
-            // positive:
+            768: {
+                height: 'asWindow', /*only screen and (max-width : 768)*/
+                negative: 150,
+                // positive:
+            },
+            992: {
+                height: 'asWindow',
+                negative: 150, /*only screen and (max-width : 992)*/
+                // positive:
+            },
+            1200: {
+                height: 'asWindow',
+                negative: 150, /*only screen and (max-width : 1200)*/
+                // positive:
+            },
+            2600: {
+                height: 'asWindow',
+                negative: 150, /*only screen and (max-width : 2600)*/
+                // positive:
+            },
+
+            /**
+             * someDeviceSize: {
+             *                    height: 'asWindow' (or [0 - infinite]),
+             *                    negative : (or [0 - infinite]),
+             *                    positive: (or [0 - infinite])
+             *                          }
+             * **/
+
         }
     });
     /* /DOM ready*/
-
-    /*Window resize*/
-    $(window).resize(function () {
-        $('.main_top').heightAdjust({
-            handle: {
-                height: 'asWindow',
-                negative: 150,
-                // positive:
-            }
-        });
-    });
-    /* /Window resize*/
     /* /Affected to selector with heightAdjust() method when DOM ready or window resize*/
 
 })(jQuery);
