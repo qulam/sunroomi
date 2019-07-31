@@ -1,4 +1,9 @@
 /*Javascript Document*/
+/*Open Social Icons When device size equal or small than 768px and clicked open-small-social button*/
+$(document).on('click', '#open-small-social', function () {
+    $('.social-small-device').stop().slideToggle(100);
+});
+/* /Open Social Icons When device size equal or small than 768px and clicked open-small-social button*/
 
 /**Gallery Carousel**/
 $(document).ready(function () {
@@ -138,15 +143,6 @@ $(document).ready(function () {
         var assignedArr = [];
         var deviceKey;
 
-        /*Change Array elements by index*/
-        __changeIndex = (Arr, index_1, index_2) => {
-            var lastAttr = Arr[index_1];
-            Arr[index_1] = Arr[index_2];
-            Arr[index_2] = lastAttr;
-
-            return Arr;
-        };
-
         /*Array elements assigned*/
         __arrAssign = (Arr) => Arr.sort(function (a, b) {
             return a - b
@@ -250,4 +246,5 @@ $(document).ready(function () {
     /* /Affected to selector with heightAdjust() method when DOM ready or window resize*/
 
 })(jQuery);
+
 /*Height Adjust function for adjust selector height scheduled selector*/

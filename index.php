@@ -42,7 +42,8 @@
         </ul>
     </div>
     <div class="right">
-        <ul class="d-flex-center">
+        <!--Default device social icons-->
+        <ul class="d-flex-center social-large-device">
             <li class="d-inline-b"><a class="d-flex-center" href=""><span><i class="fab fa-google-plus"></i></span></a>
             </li>
             <li class="d-inline-b"><a class="d-flex-center" href=""><span><i class="fab fa-instagram"></i></span></a>
@@ -51,6 +52,20 @@
             <li class="d-inline-b"><a class="d-flex-center" href=""><span><i class="fab fa-facebook"></i></span></a>
             </li>
         </ul>
+        <!-- /Default device social icons-->
+
+        <!--Social Small Device-->
+        <span id="open-small-social"><i class="fa fa-share-alt"></i></span>
+        <ul class="social-small-device">
+            <li class=""><a class="d-flex-center" href=""><span><i class="fab fa-google-plus"></i></span></a>
+            </li>
+            <li class=""><a class="d-flex-center" href=""><span><i class="fab fa-instagram"></i></span></a>
+            </li>
+            <li class=""><a class="d-flex-center" href=""><span><i class="fab fa-youtube"></i></span></a></li>
+            <li class=""><a class="d-flex-center" href=""><span><i class="fab fa-facebook"></i></span></a>
+            </li>
+        </ul>
+        <!-- /Social Small Device-->
     </div>
 
     <!--back to top button-->
@@ -79,15 +94,28 @@
                     </a>
                 </div>
                 <div class="right">
-                    <ul>
+                    <ul class="default-menu-list">
                         <li class="d-inline-b"><a class="d-flex-center link-route" href="products">PRODUCTS</a></li>
                         <li class="d-inline-b"><a class="d-flex-center link-route" href="gallery">GALLERY</a></li>
                         <li class="d-inline-b"><a class="d-flex-center link-route" href="projects">PROJECTS</a></li>
                         <li class="d-inline-b"><a class="d-flex-center link-route" href="contacts">CONTACTS</a></li>
                     </ul>
+
+                    <!--X-Small device menu-->
+<!--                    <div clas-->
+<!--                    ></div>-->
+<!--                    <ul class="menu-list">-->
+<!--                        <li class=""><a class="d-flex-center link-route" href="products">PRODUCTS</a></li>-->
+<!--                        <li class=""><a class="d-flex-center link-route" href="gallery">GALLERY</a></li>-->
+<!--                        <li class=""><a class="d-flex-center link-route" href="projects">PROJECTS</a></li>-->
+<!--                        <li class=""><a class="d-flex-center link-route" href="contacts">CONTACTS</a></li>-->
+<!--                    </ul>-->
+                    <!-- /X-Small device menu-->
+
                 </div>
             </nav>
             <!-- /Mav-->
+
         </div>
     </section>
     <!-- /Top-->

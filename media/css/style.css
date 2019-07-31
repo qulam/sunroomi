@@ -293,6 +293,10 @@ ul li a {
     text-align: left;
 }
 
+.header .right {
+    position: relative;
+}
+
 .header .right a {
     color: #7ca953;
     font-size: 25px;
@@ -302,6 +306,44 @@ ul li a {
     height: 27px;
     margin-right: 5px;
 }
+
+/*Mini size social*/
+.social-small-device {
+    display: none;
+    position: absolute;
+    background-color: #fff;
+    right: 0;
+    top: 45px;
+    padding-right: 7px;
+    padding-left: 7px;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    box-shadow: 0 17px 50px 0 rgba(0,0,0,.19), 0 12px 15px 0 rgba(0,0,0,.24);
+    border-radius: 3px;
+}
+
+.social-small-device li {
+    display: block;
+    margin: 0 !important;
+}
+
+.social-small-device li a:hover {
+    background-color: rgba(0, 0, 0, 0.1);
+    border-radius: 3px;
+    -webkit-transition: cubic-bezier(.26,.77,0,.96);
+    -moz-transition:  cubic-bezier(.26,.77,0,.96);
+    -ms-transition:  cubic-bezier(.26,.77,0,.96);
+    -o-transition:  cubic-bezier(.26,.77,0,.96);
+    transition:  cubic-bezier(.26,.77,0,.96);
+}
+
+#open-small-social {
+    display: none;
+    font-size: 30px;
+    color: #7ca953;
+    cursor: pointer;
+}
+/* /Mini size social*/
 
 /* /Header*/
 
@@ -345,6 +387,34 @@ ul li a {
     margin-right: 95px;
     z-index: 999;
 }
+
+.site_nav .right ul.menu-list {
+    display: none;
+}
+
+.menu-list {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: #fff;
+    padding-right: 50px;
+    z-index: 9999;
+}
+
+.menu-list li {
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.menu-list li a {
+    justify-content: flex-end;
+    color: #000 !important;
+}
+
 
 .site_nav a {
     text-decoration: none;
@@ -502,7 +572,7 @@ ul li a {
 /*Gallery*/
 #gallery {
     position: relative;
-    z-index: -2;
+    /*z-index: -2;*/
 }
 
 .gallery {
@@ -686,7 +756,7 @@ ul li a {
 .shapes {
     margin-top: 100px;
     position: relative;
-    z-index: -1;
+    /*z-index: -1;*/
 }
 
 .shape_item__header {
